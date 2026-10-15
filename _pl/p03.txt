@@ -1,0 +1,55 @@
+- 说人话：W Szwecji obserwowano 1,67 mln kobiet. Kobiety zaszczepione przeciw HPV przed 17. rokiem życia miały później około osiem razy mniejszą szansę zachorowania na inwazyjnego raka szyjki macicy niż niezaszczepione. Zaszczepione w wieku 17–30 lat miały około połowę mniejszą. Dlatego im wcześniej, tym opłacalniej.
+- 收益：W Szwecji obserwowano 1,67 mln kobiet i policzono statystyki: zapadalność na inwazyjnego raka szyjki macicy była niższa wśród zaszczepionych niż niezaszczepionych. Szczepienie przed 17. rokiem życia dawało niższą o około 88% (IRR 0,12, 95% CI od 0,00 do 0,34; w nawiasie podano wartość pierwotną i jej przedział ufności). Szczepienie w wieku 17–30 lat dawało niższą o około 53% (IRR 0,47, 95% CI od 0,27 do 0,75). Światowa Organizacja Zdrowia uznała za priorytetową grupę do szczepień dziewczynki w wieku 9–14 lat, które jeszcze nie rozpoczęły życia seksualnego
+@@163
+@@164
+- 备注：Światowa Organizacja Zdrowia w pierwszej kolejności zaleca szczepić dziewczynki w wieku 9–14 lat, które jeszcze nie rozpoczęły życia seksualnego. Szczepienie w wieku 17–30 lat daje jeszcze ponad połowę spadku. To szwedzkie badanie obejmowało tylko osoby do 30. roku życia i nie podaje liczby, o ile spada ryzyko, jeśli szczepi się po 30. roku życia. Mimo szczepienia nadal trzeba robić badania przesiewowe w kierunku raka szyjki macicy, bo szczepionka ich nie zastępuje, zob. pozycja 18 (badania przesiewowe w kierunku raka szyjki macicy u kobiet powyżej 30. roku życia).
+@@166
+### 17. Kobiety: od 40. roku życia rób badania przesiewowe w kierunku raka piersi, mammografię co dwa lata
+@@168
+- 成本：Mammografia kosztuje za każdym razem 200–300 juanów. W wielu regionach są bezpłatne programy badań przesiewowych. Co dwa lata pół dnia.
+- 说人话：Mammografia co dwa lata u kobiet w wieku 40–74 lat jest wyraźnie zalecana w oficjalnych amerykańskich zaleceniach dotyczących badań przesiewowych. Dla kobiet po 75. roku życia oraz dla dodatkowego USG lub rezonansu przy gęstych piersiach oficjalny wniosek jest taki, że dowodów jest za mało. Gdy pakiet badań profilaktycznych dolicza za to dodatkowe opłaty, możesz tego nie kupować.
+- 收益：Amerykański Zespół Zadaniowy ds. Usług Profilaktycznych (USPSTF) to oficjalna instytucja w USA wydająca zalecenia dotyczące badań przesiewowych. Jego obecne zalecenie brzmi: „zaleca się, aby kobiety w wieku 40–74 lat co dwa lata robiły przesiewową mammografię”. Mammografia to potocznie badanie rentgenowskie piersi. Poziom tego zalecenia to B. Dla kobiet w wieku 75 lat i starszych oraz dla dodatkowego USG lub rezonansu przy piersiach gęstych uznał, że „dostępne dowody są niewystarczające”. Chińskie wytyczne dotyczące badań przesiewowych w kierunku raka piersi z 2021 roku zalecają kobietom o przeciętnym ryzyku badania od 45. roku życia, raz na 1–2 lata. Kobiety o wysokim ryzyku od 40. roku życia, co roku
+@@172
+@@173
+- 备注：Od jakiego wieku się badać, różni się w zależności od kraju; chińskie wytyczne z 2021 roku zalecają osobom o przeciętnym ryzyku zaczynać od 45. roku życia. Osoby, u których rak piersi wystąpił u rodziców, dzieci lub rodzeństwa, oraz nosicielki mutacji BRCA należą do grupy wysokiego ryzyka i powinny ustalić plan z lekarzem; ta pozycja ich nie dotyczy
+@@175
+### 18. Kobiety po 30. roku życia: badania przesiewowe w kierunku raka szyjki macicy, w pierwszej kolejności test na HPV
+@@177
+- 成本：Test na HPV kosztuje 100–300 juanów. Przy wyniku ujemnym wystarczy powtarzać co 5 lat. Pobranie próbki zajmuje kilka minut.
+- 说人话：W badaniu na wsi indyjskiej kobiety, które miały jednorazowo wykonany test na HPV, umierały na raka szyjki macicy o około połowę rzadziej. Szansa wykrycia zaawansowanego raka szyjki macicy była także niższa o około 50%. Jednorazowo sto, dwieście juanów; według amerykańskich zaleceń powtarzaj co 5 lat.
+- 收益：Badanie na wsi indyjskiej przydzielało do grup losowo całe zbiorowości, a nie pojedyncze osoby. Uczestniczkami były kobiety w wieku 30–59 lat. Samo jednorazowe badanie przesiewowe testem na HPV zmniejszało ryzyko śmierci z powodu raka szyjki macicy o około 48%. Wartość pierwotna: HR 0,52, przedział ufności 95% CI od 0,33 do 0,83. Ryzyko wykrycia zaawansowanego raka szyjki macicy było niższe o około 53% (HR 0,47, 95% CI od 0,32 do 0,69). Odstęp między badaniami wg zalecenia amerykańskiego Zespołu Zadaniowego ds. Usług Profilaktycznych z 2018 roku: kobiety w wieku 30–65 lat, u których wykonuje się wyłącznie test na wysokoryzykowne typy HPV, powinny badać się co 5 lat
+@@181
+@@182
+- 备注：Osoby zaszczepione przeciw HPV także powinny się badać, bo szczepionka nie obejmuje wszystkich typów wirusa. Niezwykłe w tym badaniu jest to, że było to badanie przesiewowe z losowym przydziałem do grup, które wprost za wynik przyjęło liczbę zgonów, a przy tym obejmowało tylko jedną rundę badań.
+@@184
+### 19. Od 45–50 lat rób badania przesiewowe w kierunku raka jelita grubego: test immunochemiczny kału na krew utajoną lub kolonoskopię
+@@186
+- 成本：Badanie kału kosztuje kilkadziesiąt juanów, robi się je co 1–2 lata. Kolonoskopia kosztuje od kilkuset do ponad tysiąca juanów, a przy wyniku ujemnym wystarczy raz na 10 lat. Przed kolonoskopią trzeba przeznaczyć jeden dzień na oczyszczenie jelit.
+- 说人话：Jeśli co rok lub co dwa lata wykonujesz badanie kału na krew utajoną za kilkadziesiąt juanów, ryzyko śmierci z powodu raka jelita grubego jest niższe o około 16%, a u osób, które przeszły co najmniej jedną rundę, o 25%. U osób zaproszonych na jedną kolonoskopię ryzyko zachorowania na raka jelita grubego w ciągu następnych dziesięciu lat spadło z 1,20% do 0,98%.
+- 收益：Cochrane połączył wyniki wielu badań i policzył je razem. U osób poddanych badaniu kału na krew utajoną ryzyko śmierci z powodu raka jelita grubego było niższe o około 16%. Wartość pierwotna: RR 0,84, przedział ufności 95% CI od 0,78 do 0,90. U osób, które uczestniczyły w co najmniej jednej rundzie, niższe o około 25% (RR 0,75). Ponadto badanie z losowym przydziałem NordICC. U osób zaproszonych na kolonoskopię zachorowalność na raka jelita grubego w ciągu 10 lat spadła z 1,20% do 0,98%. Wartość pierwotna: RR 0,82, przedział ufności 95% CI od 0,70 do 0,93
+@@190
+@@191
+- 备注：争议（sporne）：NordICC liczył wyniki osób „zaproszonych na kolonoskopię”. Zgony z powodu raka jelita grubego: 0,28% wobec 0,31% (RR 0,90, 95% CI od 0,64 do 1,16), różnica mieści się jeszcze w granicach błędu. Oznacza to, że korzyść kolonoskopii dla śmiertelności była wcześniej przeceniana. Dowody dla badania kału w zakresie śmiertelności są natomiast mocniejsze. Od jakiego wieku się badać, wytyczne różnych krajów podają od 45 do 50 lat. Osoby, w których rodzinie ktoś chorował na ten nowotwór, powinny zaczynać wcześniej. O ćwiczeniach u osób, które już zachorowały na raka okrężnicy i przeszły operację oraz chemioterapię, zob. sekcja 16, pozycja 14 (po operacji i chemioterapii raka okrężnicy).
+@@193
+### 20. Osoby z chorobami serca i naczyń oraz osoby starsze szczepią się przeciw grypie co roku
+@@195
+- 成本：Jedno szczepienie kosztuje 50–150 juanów. Raz w roku, jesienią.
+- 说人话：W badaniu szczepionki przeciw grypie po zawale serca odsetek zgonów w ciągu roku spadł z 4,9% do 2,9%. Osoby z chorobami serca i naczyń oraz osoby starsze powinny co jesień dodatkowo przyjąć jedną dawkę za 50–150 juanów.
+- 收益：Jedno badanie przeprowadzono po zawale mięśnia sercowego, z losowym przydziałem 2571 osób. Ani lekarze, ani pacjenci nie wiedzieli, jaką dawkę podano. Wśród zaszczepionych przeciw grypie śmiertelność ogólna w ciągu 12 miesięcy wyniosła 2,9%. Wśród otrzymujących placebo 4,9%. Wartość pierwotna: HR 0,59, przedział ufności 95% CI od 0,39 do 0,89. Placebo to zastrzyk kontrolny niezawierający substancji czynnej. HR dla zgonu z przyczyn sercowo-naczyniowych wynosił 0,59. Inne badanie połączyło wyniki wielu badań i policzyło je razem. Wśród zaszczepionych przeciw grypie główne zdarzenia sercowo-naczyniowe wystąpiły u 3,6%, w grupie kontrolnej u 5,4%. Wartość pierwotna: RR 0,66, przedział ufności 95% CI od 0,53 do 0,83. Zgony z przyczyn sercowo-naczyniowych: RR 0,74 (95% CI od 0,42 do 1,30; taka różnica mieści się jeszcze w granicach błędu i nie jest istotna statystycznie)
+@@199
+@@200
+- 备注：争议（sporne）：Poziom A dotyczy tylko osób z chorobami serca i naczyń. U osób starszych, które były zdrowe, przegląd Cochrane pozwala tylko na jeden wniosek: zachorowalność na grypę w jednym sezonie spadła z 6% do 2,4%. Ocenił wiarygodność tego dowodu jako „niską”, a dowodów dotyczących śmiertelności jako „bardzo niskie”. Przegląd pochodzi z pracy Demicheli V i in. z 2018 roku. O kobietach w ciąży zob. sekcja 27, pozycja 18 (szczepionka inaktywowana przeciw grypie w ciąży), a o chorych na przewlekłą obturacyjną chorobę płuc zob. sekcja 16, pozycja 12 (przewlekła obturacyjna choroba płuc: inhalatory).
+@@202
+### 21. Po 50. roku życia zaszczep się przeciw półpaścowi
+@@204
+- 成本：Rekombinowana szczepionka przeciw półpaścowi wymaga dwóch dawek, razem około 3000–4000 juanów. Całość płacisz z własnej kieszeni.
+- 说人话：W badaniu trzeciej fazy ta szczepionka zapobiegła półpaścowi w 97%, i to mniej więcej tak samo w każdej grupie wiekowej. Wada: dwie dawki za 3–4 tys. juanów w całości z własnej kieszeni. Za te pieniądze kupujesz dziewięćdziesięciosiedmioprocentowy spadek zachorowalności.
+- 收益：Badanie trzeciej fazy w 18 krajach, z 15,4 tys. uczestników. W badaniu osoby losowo podzielono na dwie grupy: jedna dostała szczepionkę, druga zastrzyk kontrolny; średni okres obserwacji wyniósł 3,2 roku. W grupie szczepionej półpasiec wystąpił w 6 przypadkach, w grupie placebo w 210. Po przeliczeniu na 1000 osobolat daje to 0,3 wobec 9,1; „na 1000 osobolat” oznacza liczbę przypadków przy obserwowaniu 1000 osób przez rok. Oryginał podaje: „ogólna skuteczność szczepionki wobec półpaśca wyniosła 97,2% (95% CI 93,7–99,0, P<0,001)”. Skuteczność w poszczególnych grupach wiekowych mieściła się w przedziale od 96,6% do 97,9%. W ciągu 7 dni po szczepieniu reakcje w miejscu wkłucia i ogólne były częstsze w grupie szczepionej. Objawy trzeciego stopnia (najcięższej kategorii) zgłosiło 17,0% w grupie szczepionej i 3,2% w grupie placebo. Odsetek poważnych zdarzeń niepożądanych i zgonów w obu grupach był zbliżony
+@@208
+@@209
+- 备注：Opłacalność nie jest wysoka, bo szczepionka jest droga. Sam półpasiec rzadko zagraża życiu, prawdziwym kłopotem jest nerwoból po półpaścu, który może boleć od kilku miesięcy do kilku lat. W ciągu tygodnia po szczepieniu reakcje w miejscu wkłucia i ogólne były częstsze niż po placebo. Najcięższe objawy (trzeciego stopnia) zgłosiło 17,0% wobec 3,2%, a poważne zdarzenia niepożądane w obu grupach były zbliżone
+@@211
+### 22. Po 65. roku życia zaszczep się przeciw pneumokokom
+@@213
+- 成本：Kilkaset juanów. W niektórych regionach dla osób starszych bezpłatnie.
+- 说人话：W badaniu z 84,5 tys. osób starszych 13-walentna szczepionka przeciw pneumokokom zapobiegła około 46% zapaleń płuc wywołanych typami, przed którymi szczepionka chroni. Najgroźniejszym zakażeniom inwazyjnym zapobiegła w 75%. Nie zaobserwowano jednak efektu wobec „zapalenia płuc z jakiejkolwiek przyczyny”, więc nie oczekuj, że ochroni przed każdym zapaleniem płuc.
