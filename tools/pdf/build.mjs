@@ -16,7 +16,9 @@ const TYPST = process.env.TYPST ?? 'typst';
 const STAMP = buildStamp();          // 「（北京时间）」写在模板和版本说明里，传给 pandoc 的值保持纯 ASCII
 const COMMIT = gitCommit();
 
-const { description, frontMd, contentsMd, bookFiles, docFiles } = readBook();
+const { description, frontMd: rawFrontMd, contentsMd: rawContentsMd, bookFiles, docFiles } = readBook();
+const frontMd = rawFrontMd.replace(/^## 这本书想回答的问题/m, '## Pytania, na które odpowiada poradnik');
+const contentsMd = rawContentsMd.replace(/^## 目录/, '# Opis sekcji');
 
 // ---------- 页（每页一个一级标题，一级标题在 typst 里另起一页） ----------
 const anchorOf = new Map();
@@ -24,25 +26,25 @@ bookFiles.forEach(f => anchorOf.set(f, 'sec-' + (basename(f).match(/^\d+/)?.[0] 
 docFiles.forEach((f, i) => anchorOf.set(f, `doc-${i + 1}`));
 
 const pages = [
-  { src: 'README.md', md: `# 前言\n\n${description}\n\n${frontMd}`, anchor: 'front' },
-  { src: 'README.md', md: contentsMd.replace(/^## 目录/, '# 各节简介'), anchor: 'contents' },
+  { src: 'README.md', md: `# Wstęp\n\n${description}\n\n${frontMd}`, anchor: 'front' },
+  { src: 'README.md', md: contentsMd, anchor: 'contents' },
   ...[...bookFiles, ...docFiles].map(src => ({ src, md: splitLongItems(stripBackLink(read(src))), anchor: anchorOf.get(src) })),
   { src: 'README.md', md: aboutMd(), anchor: 'about' },
 ];
 
 function aboutMd() {
-  const commitLine = COMMIT ? `- 对应提交：${COMMIT.slice(0, 7)}\n` : '';
-  return `# 版本说明
+  const commitLine = COMMIT ? `- Wersja źródłowa: ${COMMIT.slice(0, 7)}\n` : '';
+  return `# Informacje o wydaniu
 
-这本 PDF 由仓库里的 Markdown 正文自动排版，正文一改就重新排一本。手里这本的版本：
+Ten PDF jest automatycznie składany z plików Markdown repozytorium i aktualizowany po każdej zmianie treści. Wersja w tym pliku:
 
-- 生成时间：${STAMP}（北京时间）
-${commitLine}- 最新版下载、在线检索、提意见：${REPO}
-- 在线检索页（按关键词、章节、证据等级和成本筛选，也能存成单文件离线看）：${SITE}
+- Wygenerowano: ${STAMP} (czas pekiński)
+${commitLine}- Pobranie, wyszukiwarka online i uwagi: ${REPO}
+- Wyszukiwarka online (według słów kluczowych, sekcji, poziomu dowodów i kosztów; dostępna też wersja offline): ${SITE}
 
-正文里指向书内其他节的链接已改成书内跳转；指向核实记录、许可证这类没排进书的文件的链接改成了 GitHub 网址。
+Odnośniki do innych sekcji w książce prowadzą do odpowiednich miejsc w PDF. Odnośniki do plików spoza książki, takich jak dokumentacja źródeł i licencja, prowadzą do GitHuba.
 
-正文以 CC BY 4.0 发布（https://creativecommons.org/licenses/by/4.0/）。可以转载、改编、商用，要写明出处「高性价比人生指南」并附仓库链接，改过内容的要注明改过。`;
+Tekst jest udostępniony na licencji CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Można go kopiować, przerabiać i wykorzystywać komercyjnie. Należy podać źródło jako „高性价比人生指南 — Przewodnik po życiu o wysokiej opłacalności” i dodać link do repozytorium. Zmiany trzeba oznaczyć.`;
 }
 
 // ---------- 链接：书内的改成锚点，书外的改成绝对网址 ----------

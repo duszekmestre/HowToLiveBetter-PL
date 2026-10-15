@@ -13,7 +13,7 @@ Jeśli otworzysz Claude Code w tym repozytorium, nie musisz nic instalować — 
 Aby skill działał w dowolnym katalogu, skopiuj go do osobistego katalogu skilli:
 
 ```bash
-mkdir -p ~/.claude/skills/life-decision-guide && curl -fsSL -o ~/.claude/skills/life-decision-guide/SKILL.md "https://raw.githubusercontent.com/eternity4719/HowToLiveBetter/main/skills/life-decision-guide/SKILL.md"
+mkdir -p ~/.claude/skills/life-decision-guide && curl -fsSL -o ~/.claude/skills/life-decision-guide/SKILL.md "https://raw.githubusercontent.com/duszekmestre/HowToLiveBetter-PL/main/skills/life-decision-guide/SKILL.md"
 ```
 
 Potem wystarczy zapytać wprost, np. „每天通勤两小时值不值” (czy opłaca się dojeżdżać codziennie dwie godziny) albo „朋友让我替他担保，签不签” (znajomy prosi, żebym za niego poręczył — podpisać czy nie), a skill się uruchomi. Można też powiedzieć wprost: „用 life-decision-guide 回答” (odpowiedz, używając life-decision-guide).
@@ -25,7 +25,7 @@ Jeśli otworzysz Codex w tym repozytorium, nie musisz nic instalować — plik `
 Aby skill działał w dowolnym katalogu, skopiuj go do osobistego katalogu skilli Codex, `~/.agents/skills`:
 
 ```bash
-mkdir -p ~/.agents/skills/life-decision-guide && curl -fsSL -o ~/.agents/skills/life-decision-guide/SKILL.md "https://raw.githubusercontent.com/eternity4719/HowToLiveBetter/main/skills/life-decision-guide/SKILL.md"
+mkdir -p ~/.agents/skills/life-decision-guide && curl -fsSL -o ~/.agents/skills/life-decision-guide/SKILL.md "https://raw.githubusercontent.com/duszekmestre/HowToLiveBetter-PL/main/skills/life-decision-guide/SKILL.md"
 ```
 
 Potem wystarczy zadać pytanie, a skill uruchomi się automatycznie na podstawie opisu; można go też wywołać jawnie poleceniem `$life-decision-guide`. Uwaga: to `$`, a nie `/` — w nowych wersjach Codex wpisanie `/life-decision-guide` kończy się błędem `Unrecognized command`. Jeśli skill się nie pojawia, uruchom Codex ponownie.
@@ -37,7 +37,7 @@ Starsze wersje Codex nie mają jeszcze skilli i działają tylko z własnymi pro
 Jeśli masz lokalnie to repozytorium, skill czyta lokalny katalog `book/`; jeśli nie, pobiera treść na bieżąco:
 
 ```bash
-git clone --depth 1 https://github.com/eternity4719/HowToLiveBetter.git "${TMPDIR:-/tmp}/hltb"
+git clone --depth 1 https://github.com/duszekmestre/HowToLiveBetter-PL.git "${TMPDIR:-/tmp}/hltb"
 ```
 
 Cała książka waży 1,3 MB, a płytki klon trwa kilka sekund. Gdy nie ma dostępu do sieci, skill uczciwie mówi, że nie może pobrać treści, i nie zastępuje jej niczym innym.

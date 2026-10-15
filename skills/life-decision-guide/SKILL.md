@@ -1,6 +1,6 @@
 ---
 name: life-decision-guide
-description: Odpowiadaj na konkretne życiowe dylematy, korzystając z treści 《高性价比人生指南》 (github.com/eternity4719/HowToLiveBetter): czy coś robić, czy warto, co wybrać, co zrobić najpierw w nagłej sytuacji, jakie świadczenie można otrzymać i czy coś jest zgodne z prawem. Najpierw znajdź odpowiednie wpisy, a potem uporządkuj je według kosztu (pieniądze/czas/wytrwałość), skali korzyści i poziomu dowodów A/B/C. Przy każdym wpisie podaj sekcję i numer wpisu. Słowa wyzwalające: czy warto, czy powinienem, czy robić, jak wybrać, pomóż mi zdecydować, czy to jest nielegalne, jakie świadczenia mogę dostać, co zrobić najpierw, opłacalność.
+description: Odpowiadaj na konkretne życiowe dylematy, korzystając z polskiej treści 《高性价比人生指南》 w repozytorium github.com/duszekmestre/HowToLiveBetter-PL: czy coś robić, czy warto, co wybrać, co zrobić najpierw w nagłej sytuacji, jakie świadczenie można otrzymać i czy coś jest zgodne z prawem. Najpierw znajdź odpowiednie wpisy, a potem uporządkuj je według kosztu (pieniądze/czas/wytrwałość), skali korzyści i poziomu dowodów A/B/C. Przy każdym wpisie podaj sekcję i numer wpisu. Słowa wyzwalające: czy warto, czy powinienem, czy robić, jak wybrać, pomóż mi zdecydować, czy to jest nielegalne, jakie świadczenia mogę dostać, co zrobić najpierw, opłacalność.
 ---
 
 # Decyzje życiowe: najpierw sprawdź 《高性价比人生指南》
@@ -27,13 +27,13 @@ Książka rozlicza cztery rodzaje korzyści: długość życia, czas i energię,
 **Zdalnie**: jeśli ich nie ma, pobierz treść. Cała książka ma 1,3 MB, więc najwygodniej sklonować ją płytko. Potem wszystkie polecenia można wykonywać normalnie:
 
 ```bash
-git clone --depth 1 https://github.com/eternity4719/HowToLiveBetter.git "${TMPDIR:-/tmp}/hltb"
+git clone --depth 1 https://github.com/duszekmestre/HowToLiveBetter-PL.git "${TMPDIR:-/tmp}/hltb"
 ```
 
 Jeśli nie możesz użyć git, pobierz plik bezpośrednio (chińskie znaki w nazwie pliku można wpisać bez zmian):
 
 ```bash
-curl -fsSL --compressed "https://raw.githubusercontent.com/eternity4719/HowToLiveBetter/main/book/02-不要慢慢死.md"
+curl -fsSL --compressed "https://raw.githubusercontent.com/duszekmestre/HowToLiveBetter-PL/main/book/02-不要慢慢死.md"
 ```
 
 Jeśli żadna z tych metod nie zadziała, oznacza to, że nie udało się pobrać treści. Powiedz to wprost i nie odtwarzaj zawartości książki z pamięci.
