@@ -69,6 +69,8 @@ const nums = s => {
 // 条号那一段的写法：「3」「3、10」「11 到 14」「5 到第 10」
 const SPEC = '[\\d、,\\s]+?(?:(?:到|至|do|–)\\s*第?\\s*\\d+)?';
 const PL_REF_SPEC = '\\d+(?:\\s*(?:,|i)\\s*\\d+)*(?:\\s*(?:do|–|-)\\s*\\d+)?';
+const PL_SECTION_PREFIX = '(?:sekcja|rozdział|rozdz\\.?)';
+const PL_ITEM_PREFIX = '(?:pozycja|poz\\.?|punkt|pkt\\.?)';
 
 const out = [];
 const problems = [];
@@ -129,7 +131,7 @@ for (const { f, dir, isDoc } of targets) {
   const afterOf = (line, idx) => {
     const rest = line.slice(idx)
       .replace(new RegExp(`^第\\s*\\d+\\s*节?第?\\s*(?:${SPEC})?\\s*条`), '')
-      .replace(new RegExp(`^(?:(?:sekcja|rozdział)\\s*\\d+\\s*,?\\s*)?(?:pozycja|punkt|pkt)\\s*(?:${PL_REF_SPEC})`, 'i'), '');
+      .replace(new RegExp(`^(?:${PL_SECTION_PREFIX}\\s*\\d+\\s*,?\\s*)?${PL_ITEM_PREFIX}\\s*(?:${PL_REF_SPEC})`, 'i'), '');
     const end = rest.search(/[。.;；！？?!]/);
     return (end === -1 ? rest : rest.slice(0, end)).slice(0, 40).replace(/\|/g, '｜');
   };
@@ -165,7 +167,7 @@ for (const { f, dir, isDoc } of targets) {
         if (!title) problems.push(`${f}:${i + 1} ${unit}引用「第 ${m[1]} 节第 ${x} 条」——该节没有这一条`);
       }
     }
-    for (const m of line.matchAll(new RegExp(`(?:sekcja|rozdział)\\s*(\\d+)\\s*,?\\s*(?:pozycja|punkt|pkt)\\s*(${PL_REF_SPEC})`, 'giu'))) {
+    for (const m of line.matchAll(new RegExp(`${PL_SECTION_PREFIX}\\s*(\\d+)\\s*,?\\s*${PL_ITEM_PREFIX}\\s*(${PL_REF_SPEC})`, 'giu'))) {
       const target = sections.get(Number(m[1]));
       for (const [x, range] of nums(m[2])) {
         const title = target?.titles.get(x);
@@ -185,10 +187,10 @@ for (const { f, dir, isDoc } of targets) {
     if (inEntry && !FIELDS.test(line)) return;
     const stripped = line
       .replace(new RegExp(`第\\s*\\d+\\s*节第\\s*${SPEC}\\s*条`, 'g'), '')
-      .replace(new RegExp(`(?:sekcja|rozdział)\\s*\\d+\\s*,?\\s*(?:pozycja|punkt|pkt)\\s*${PL_REF_SPEC}`, 'giu'), '');
+      .replace(new RegExp(`${PL_SECTION_PREFIX}\\s*\\d+\\s*,?\\s*${PL_ITEM_PREFIX}\\s*${PL_REF_SPEC}`, 'giu'), '');
     const localRefs = [
       ...stripped.matchAll(new RegExp(`第\\s*(${SPEC})\\s*条`, 'g')),
-      ...stripped.matchAll(new RegExp(`(?:pozycja|punkt|pkt)\\s*(${PL_REF_SPEC})`, 'giu')),
+      ...stripped.matchAll(new RegExp(`${PL_ITEM_PREFIX}\\s*(${PL_REF_SPEC})`, 'giu')),
     ].sort((a, b) => a.index - b.index);
     for (const m of localRefs) {
       // 判定这是法条条款号还是条目引用。2026-09-21 之前的办法是看前 16 个字里有没有

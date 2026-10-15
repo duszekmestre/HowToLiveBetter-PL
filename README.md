@@ -2,64 +2,66 @@
 
 <img src="og.png" alt="Przewodnik po życiu o wysokiej relacji korzyści do kosztów — jak najmniejszym kosztem pieniędzy, czasu i energii zyskać jak najwięcej życia, pieniędzy i wolności osobistej" width="820">
 
-# Przewodnik po życiu o wysokiej relacji korzyści do kosztów
+# 高性价比人生指南
+
+*Przewodnik po życiu o wysokiej relacji korzyści do kosztów*
 
 Dowiesz się, jak żyć dłużej i rzadziej chorować, a także jak pomagać w nagłych wypadkach. Książka podpowiada, jak nie przepłacać i jak unikać oszustw oraz kłopotów z prawem. Wyjaśnia, jakie świadczenia można uzyskać po utracie pracy lub pieniędzy oraz jakie formalności wiążą się z prowadzeniem sklepu, firmy czy strony internetowej. Porusza też tematy związków, małżeństwa, dzieci, wyjazdów za granicę i nauki zawodu. Informacje o prawie, ubezpieczeniu zdrowotnym i społecznym opierają się na aktualnych przepisach Chin kontynentalnych.<br>
-765 zaleceń. Przy każdym podano koszty, możliwe korzyści i siłę dowodów. Źródła to wyłącznie artykuły naukowe i dokumenty urzędowe. W kilku sprawach nieujawnionych oficjalnie wykorzystano podpisane, oryginalne materiały dziennikarskie z archiwalnymi kopiami stron.
+Liczba zaleceń: 765. Przy każdym podano koszty, możliwe korzyści i siłę dowodów. Źródła to wyłącznie artykuły naukowe i dokumenty urzędowe. W kilku sprawach nieujawnionych oficjalnie wykorzystano podpisane, oryginalne materiały dziennikarskie z archiwalnymi kopiami stron.
 
 Nie musisz robić wszystkiego. To lista możliwości, a nie lista zadań. Wybierz jedną lub dwie rzeczy. Autor sam nie wdrożył większości zaleceń.
 
-Informacje w książce mogą się zdezaktualizować lub zawierać błędy. Wiele zasad jest różnie stosowanych w poszczególnych miejscach. Załatwiając sprawy urzędowe, lecząc się lub prowadząc sprawę sądową, kieruj się informacjami od właściwych lokalnych urzędów, lekarzy i prawników. Jeśli zauważysz błąd, [zgłoś problem](https://github.com/eternity4719/HowToLiveBetter/issues).
+Informacje w książce mogą się zdezaktualizować lub zawierać błędy. Wiele zasad jest różnie stosowanych w poszczególnych miejscach. Załatwiając sprawy urzędowe, lecząc się lub prowadząc sprawę sądową, kieruj się informacjami od właściwych lokalnych urzędów, lekarzy i prawników. Jeśli zauważysz błąd, [zgłoś problem](https://github.com/duszekmestre/HowToLiveBetter-PL/issues).
 
 **Ten projekt nigdy nie wyemitował i nie wyemituje żadnych tokenów ani aktywów cyfrowych.** Żadne tokeny wydane pod nazwą projektu nie mają z nim związku. Autor nie otrzymuje ani nie rości sobie prawa do żadnych związanych z nimi zysków. Traktuj takie tokeny jak oszustwo i ich nie kupuj. Zob. [sekcja 5, punkt 45 (nie kupuj kryptowalut)](book/05-不要浪费钱.md).
 
-[![在线检索](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%A3%80%E7%B4%A2-%E7%82%B9%E8%BF%99%E9%87%8C%E6%89%93%E5%BC%80-3451b2?style=flat-square)](https://eternity4719.github.io/HowToLiveBetter/)
-[![条目](https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-765%20%E6%9D%A1-18794e?style=flat-square)](#目录)
-[![证据分级](https://img.shields.io/badge/%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7-A%20495%20%C2%B7%20B%20218%20%C2%B7%20C%2052-915930?style=flat-square)](#证据分级)
-[![原始文献](https://img.shields.io/badge/%E5%8E%9F%E5%A7%8B%E6%96%87%E7%8C%AE-2508%20%E6%9D%A1%E9%93%BE%E6%8E%A5-565a5f?style=flat-square)](docs/核实记录/)
-[![许可](https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-CC%20BY%204.0-565a5f?style=flat-square)](#许可)
-[![Claude Code 协助编写](https://img.shields.io/badge/Claude%20Code-%E5%8D%8F%E5%8A%A9%E7%BC%96%E5%86%99-D97757?style=flat-square&logo=claude&logoColor=white)](https://claude.com/claude-code)
+[![Wyszukiwarka online](https://img.shields.io/badge/Wyszukiwarka%20online-Otw%C3%B3rz%20tutaj-3451b2?style=flat-square)](https://duszekmestre.github.io/HowToLiveBetter-PL/)
+[![Punkty](https://img.shields.io/badge/Punkty-765-18794e?style=flat-square)](#目录)
+[![Poziom dowodów](https://img.shields.io/badge/Poziom%20dowod%C3%B3w-A%20495%20%C2%B7%20B%20218%20%C2%B7%20C%2052-915930?style=flat-square)](#证据分级)
+[![Źródła pierwotne](https://img.shields.io/badge/%C5%B9r%C3%B3d%C5%82a%20pierwotne-2508%20link%C3%B3w-565a5f?style=flat-square)](docs/核实记录/)
+[![Licencja](https://img.shields.io/badge/Licencja-CC%20BY%204.0-565a5f?style=flat-square)](#许可)
+[![Claude Code z pomocą](https://img.shields.io/badge/Claude%20Code-Z%20pomoc%C4%85-D97757?style=flat-square&logo=claude&logoColor=white)](https://claude.com/claude-code)
 
-### [Otwórz wyszukiwarkę online](https://eternity4719.github.io/HowToLiveBetter/) · [AI odpowiadająca na podstawie książki (skill)](skills/life-decision-guide/README.md)
+### [Otwórz wyszukiwarkę online](https://duszekmestre.github.io/HowToLiveBetter-PL/) · [AI odpowiadająca na podstawie książki (skill)](skills/life-decision-guide/README.md)
 
-Skill dla asystenta AI działa z Claude Code i Codex. Po instalacji możesz zapytać na przykład: „替朋友担保签不签” („czy poręczyć pożyczkę przyjacielowi?”). Asystent najpierw wyszuka odpowiednie punkty w książce, a potem odpowie, podając sekcję i numer punktu.
+Repozytorium zawiera polskojęzyczne instrukcje dla asystenta AI, które działają z Claude Code i Codex. Po instalacji możesz zapytać na przykład: „替朋友担保签不签” („czy poręczyć pożyczkę przyjacielowi?”). Asystent najpierw wyszuka odpowiednie punkty w książce, a potem odpowie, podając sekcję i numer punktu.
 
 <table>
-<tr><td align="right"><b>下载</b></td><td align="left">
+<tr><td align="right"><b>Pobieranie</b></td><td align="left">
 
-[PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf) · [EPUB](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub) · [Pojedynczy plik offline (HTML)](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html) · [Talia Anki](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.apkg)
+[PDF](https://github.com/duszekmestre/HowToLiveBetter-PL/releases/download/epub-latest/HowToLiveBetter.pdf) · [EPUB](https://github.com/duszekmestre/HowToLiveBetter-PL/releases/download/epub-latest/HowToLiveBetter.epub) · [Pojedynczy plik offline (HTML)](https://github.com/duszekmestre/HowToLiveBetter-PL/releases/download/epub-latest/HowToLiveBetter.html) · [Talia Anki](https://github.com/duszekmestre/HowToLiveBetter-PL/releases/download/epub-latest/HowToLiveBetter.apkg)
 
 </td></tr>
-<tr><td align="right"><b>查阅</b></td><td align="left">
+<tr><td align="right"><b>Nawigacja</b></td><td align="left">
 
 [Spis treści](#目录) · [Słowniczek](#读懂数字术语表) · [Dokumentacja weryfikacji](docs/核实记录/)
 
 </td></tr>
-<tr><td align="right"><b>自查</b></td><td align="left">
+<tr><td align="right"><b>Samoocena</b></td><td align="left">
 
-[Samoocena](https://eternity4719.github.io/HowToLiveBetter/selfcheck.html): odpowiedz na kilkadziesiąt pytań „tak/nie” i sprawdź, których zaleceń jeszcze nie wdrożyłeś oraz od czego zacząć
+[Samoocena](https://duszekmestre.github.io/HowToLiveBetter-PL/selfcheck.html): odpowiedz na kilkadziesiąt pytań „tak/nie” i sprawdź, których zaleceń jeszcze nie wdrożyłeś oraz od czego zacząć
 
 </td></tr>
-<tr><td align="right"><b>长文</b></td><td align="left">
+<tr><td align="right"><b>Dłuższe opracowania</b></td><td align="left">
 
 [Czy małżeństwo się opłaca](docs/结婚划不划算.md) · [Rodzinny zestaw awaryjny](docs/家庭应急装备清单.md) · [Czy zatrzymać się, gdy obcemu przydarzy się wypadek](docs/遇到陌生人出事该不该停.md) · [Jakie zezwolenia są potrzebne do prowadzenia platformy](docs/做平台要办哪些证.md) · [Zegar biologiczny i praca nocna](docs/生物钟和夜班.md) · [Co zrobić po zwolnieniu](docs/被裁了之后先做什么.md) · [Sprawy do załatwienia przed narodzinami dziecka i po nich](docs/孩子出生前后要办的事.md) · [Co robić po rozpoznaniu choroby przewlekłej](docs/刚确诊慢性病之后.md) · [Przed zmianą pracy lub miasta](docs/换工作、换城市之前.md)
 
 </td></tr>
-<tr><td align="right"><b>交流</b></td><td align="left">
+<tr><td align="right"><b>Kontakt</b></td><td align="left">
 
 [Grupa QQ 582670354](https://qm.qq.com/q/P1RNw3Rnqg) (kliknij, aby dołączyć)
 
 </td></tr>
-<tr><td align="right"><b>其他语言</b></td><td align="left">
+<tr><td align="right"><b>Inne wersje językowe</b></td><td align="left">
 
-[English](https://book.dlgrv.com/en/) · [Русский](https://book.dlgrv.com/ru/) · [Español](https://book.dlgrv.com/es/) · [Português](https://book.dlgrv.com/pt/) · [العربية](https://book.dlgrv.com/ar/) · [Bahasa Indonesia](https://book.dlgrv.com/id/)，tłumaczenia utrzymywane przez [dlgrv](https://github.com/dlgrv) ([repozytorium](https://github.com/dlgrv/HowToLiveBetter))
+[English](https://book.dlgrv.com/en/) · [Русский](https://book.dlgrv.com/ru/) · [Español](https://book.dlgrv.com/es/) · [Português](https://book.dlgrv.com/pt/) · [العربية](https://book.dlgrv.com/ar/) · [Bahasa Indonesia](https://book.dlgrv.com/id/) — tłumaczenia utrzymywane przez [dlgrv](https://github.com/dlgrv) ([repozytorium](https://github.com/dlgrv/HowToLiveBetter))
 
-[English（The Evidence-Based Life）](https://parveen0029.github.io/The-Evidence-Based-Life/)，drugie tłumaczenie angielskie utrzymywane przez [parveen0029](https://github.com/parveen0029) ([repozytorium](https://github.com/parveen0029/The-Evidence-Based-Life))
+[English（The Evidence-Based Life）](https://parveen0029.github.io/The-Evidence-Based-Life/) — drugie tłumaczenie angielskie utrzymywane przez [parveen0029](https://github.com/parveen0029) ([repozytorium](https://github.com/parveen0029/The-Evidence-Based-Life))
 
-[Tiếng Việt](https://chuanman2707.github.io/HowToLiveBetter/)，tłumaczenie wietnamskie utrzymywane przez [chuanman2707](https://github.com/chuanman2707) ([repozytorium](https://github.com/chuanman2707/HowToLiveBetter))
+[Tiếng Việt](https://chuanman2707.github.io/HowToLiveBetter/) — tłumaczenie wietnamskie utrzymywane przez [chuanman2707](https://github.com/chuanman2707) ([repozytorium](https://github.com/chuanman2707/HowToLiveBetter))
 
 </td></tr>
-<tr><td align="right"><b>衍生工具</b></td><td align="left">
+<tr><td align="right"><b>Projekty pochodne</b></td><td align="left">
 
 Strony internetowe, aplikacje, miniaplikacje, dodatki do przeglądarek i zbiory danych przygotowane przez czytelników opisano w dokumencie [Projekty pochodne](衍生项目.md).
 
@@ -73,6 +75,8 @@ Strony internetowe, aplikacje, miniaplikacje, dodatki do przeglądarek i zbiory 
 ---
 
 ## 这本书想回答的问题
+
+*Na jakie pytania odpowiada ta książka*
 
 | Pytanie | Gdzie szukać |
 | --- | --- |
@@ -111,44 +115,44 @@ Strony internetowe, aplikacje, miniaplikacje, dodatki do przeglądarek i zbiory 
 | Co zrobić, gdy ty lub członek rodziny stanie się osobą z niepełnosprawnością? Jakie powikłania ograniczać, o jakie świadczenia się ubiegać i jak rozwiązać kwestie nauki, pracy oraz opieki? | [33. Życie z niepełnosprawnością](book/33-残疾之后怎么活.md) |
 | Których leków na przeziębienie, gorączkę i żołądek nie łączyć? Czego unikać u dzieci, kobiet w ciąży i osób starszych? | [34. Domowe leki: jak uniknąć błędów](book/34-家里的常备药别吃出事.md) |
 
-## 怎么读
+## Jak czytać książkę
 
 - **Nie musisz wdrażać wszystkiego**: to lista możliwości, nie zadań. Wybierz jedną lub dwie rzeczy, a do pozostałych wróć w razie potrzeby. Słusznie mówi się, że łatwiej coś powiedzieć, niż zrobić — autor również nie wdrożył większości zaleceń. Zapisał je, by można je było znaleźć, gdy będą potrzebne. Jeśli chcesz wybrać łatwiejsze działania, przejdź do punktu „Chcę zobaczyć tylko to, co najbardziej się opłaca”.
-- **Chcesz, by AI wyszukała informacje**: repozytorium zawiera chiński skill ([skills/life-decision-guide](skills/life-decision-guide/)), który można zainstalować w Claude Code i Codex. Po instalacji możesz zapytać na przykład: „替朋友担保签不签” („czy poręczyć pożyczkę przyjacielowi?”) albo „每天通勤两小时值不值” („czy warto codziennie dojeżdżać do pracy przez dwie godziny?”). Asystent wyszuka odpowiednie punkty w tekście, odpowie zgodnie z zasadami książki i poda sekcję oraz numer punktu. Jeśli niczego nie znajdzie, powie o tym zamiast wymyślać liczby. Instrukcja instalacji znajduje się w [dokumentacji tego katalogu](skills/life-decision-guide/README.md).
-- **Chcesz wybierać według kryteriów**: otwórz [wyszukiwarkę online](https://eternity4719.github.io/HowToLiveBetter/). Możesz filtrować według słów kluczowych, sekcji i poziomu dowodów, a także według tego, czy coś kosztuje pieniądze, ile zajmuje czasu i czy wymaga wytrwałości. Filtry można łączyć. Treść strony pochodzi bezpośrednio z plików w katalogu book/ i zmienia się wraz z nimi.
+- **Chcesz, by AI wyszukała informacje**: repozytorium zawiera polski skill ([skills/life-decision-guide](skills/life-decision-guide/)), który można zainstalować w Claude Code i Codex. Po instalacji możesz zapytać na przykład: „替朋友担保签不签” („czy poręczyć pożyczkę przyjacielowi?”) albo „每天通勤两小时值不值” („czy warto codziennie dojeżdżać do pracy przez dwie godziny?”). Asystent wyszuka odpowiednie punkty w tekście, odpowie zgodnie z zasadami książki i poda sekcję oraz numer punktu. Jeśli niczego nie znajdzie, powie o tym zamiast wymyślać liczby. Instrukcja instalacji znajduje się w [dokumentacji tego katalogu](skills/life-decision-guide/README.md).
+- **Chcesz wybierać według kryteriów**: otwórz [wyszukiwarkę online](https://duszekmestre.github.io/HowToLiveBetter-PL/). Możesz filtrować według słów kluczowych, sekcji i poziomu dowodów, a także według tego, czy coś kosztuje pieniądze, ile zajmuje czasu i czy wymaga wytrwałości. Filtry można łączyć. Treść strony pochodzi bezpośrednio z plików w katalogu book/ i zmienia się wraz z nimi.
 - **Punkty odsyłają do siebie nawzajem** (na przykład „zob. sekcja 8, punkt 17”): w wyszukiwarce odsyłacz jest oznaczony przerywaną linią. Kliknij go, by zobaczyć tytuł i przystępne wyjaśnienie wskazanego punktu. Aby przejść do niego w tekście, kliknij „Przejdź”. Jeśli filtry ukrywają ten punkt, strona automatycznie je wyłączy. W GitHubie odsyłacze w tekście nie są klikalne, ale każdy zawiera opis celu (na przykład „zob. punkt 18 (spisz pożyczkę)”), więc wiadomo, o który punkt chodzi.
 - **Chcesz czytać po kolei**: kolejność punktów w sekcji nie oznacza, że wcześniejsze bardziej się opłacają. Na początku dłuższych sekcji znajduje się tematyczny przewodnik, który ułatwia wybór.
-- **Chcesz czytać offline lub wysłać książkę komuś**: pobierz [pojedynczy plik HTML offline](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html). Zawiera całą książkę, wyszukiwarkę i filtry. Otwiera się dwukrotnym kliknięciem, bez serwera i internetu; można go też przesłać przez WeChat.
-- **Chcesz wydrukować książkę lub czytać ją na telefonie**: pobierz [PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf). Ma format A4, ponad 200 stron, spis treści z numerami stron i zakładki. Każda sekcja zaczyna się na nowej stronie.
-- **Chcesz czytać na Kindle lub innym czytniku**: pobierz [e-book EPUB](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub). Na Kindle możesz wysłać go przez Send to Kindle.
-- **Chcesz zapamiętać treść i wracać do niej po kilku dniach**: pobierz [talię Anki](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.apkg) i otwórz ją w Anki. Każdy punkt ma jedną kartę, a karty są podzielone na podtalie według sekcji. Na awersie jest zalecenie, a na rewersie przystępne wyjaśnienie, koszty i poziom dowodów. Możesz uczyć się tylko wybranych sekcji lub filtrować karty według etykiet, takich jak „bardzo opłacalne”. Po ponownym pobraniu i zaimportowaniu talia zaktualizuje treść, nie usuwając historii powtórek.
+- **Chcesz czytać offline lub wysłać książkę komuś**: pobierz [pojedynczy plik HTML offline](https://github.com/duszekmestre/HowToLiveBetter-PL/releases/download/epub-latest/HowToLiveBetter.html). Zawiera całą książkę, wyszukiwarkę i filtry. Otwiera się dwukrotnym kliknięciem, bez serwera i internetu; można go też przesłać przez WeChat.
+- **Chcesz wydrukować książkę lub czytać ją na telefonie**: pobierz [PDF](https://github.com/duszekmestre/HowToLiveBetter-PL/releases/download/epub-latest/HowToLiveBetter.pdf). Ma format A4, ponad 200 stron, spis treści z numerami stron i zakładki. Każda sekcja zaczyna się na nowej stronie.
+- **Chcesz czytać na Kindle lub innym czytniku**: pobierz [e-book EPUB](https://github.com/duszekmestre/HowToLiveBetter-PL/releases/download/epub-latest/HowToLiveBetter.epub). Na Kindle możesz wysłać go przez Send to Kindle.
+- **Chcesz zapamiętać treść i wracać do niej po kilku dniach**: pobierz [talię Anki](https://github.com/duszekmestre/HowToLiveBetter-PL/releases/download/epub-latest/HowToLiveBetter.apkg) i otwórz ją w Anki. Każdy punkt ma jedną kartę, a karty są podzielone na podtalie według sekcji. Na awersie jest zalecenie, a na rewersie przystępne wyjaśnienie, koszty i poziom dowodów. Możesz uczyć się tylko wybranych sekcji lub filtrować karty według etykiet, takich jak „bardzo opłacalne”. Po ponownym pobraniu i zaimportowaniu talia zaktualizuje treść, nie usuwając historii powtórek.
 - **Wszystkie cztery wersje są automatycznie generowane po każdej zmianie tekstu głównego**. Linki do pobierania pozostają takie same, ale przesłany komuś plik nie aktualizuje się. Korzystaj z wersji online, by mieć aktualną treść.
 - **Nie rozumiesz liczb**: każdy punkt zawiera przystępne wyjaśnienie. Przekłada ono zapisy z pola „Korzyści” na codzienny język, na przykład „ryzyko zgonu w tym okresie jest niższe o około jedną piątą” lub „kilka dni aresztu i określona grzywna”. Nie dodaje informacji ani liczb, których nie ma w polu „Korzyści”. Do podjęcia decyzji wystarczy samo wyjaśnienie. Wszystkie liczby pozostają w polu „Korzyści”, gdzie można je samodzielnie sprawdzić.
-- **Chcesz zobaczyć tylko najlepiej udokumentowane wnioski**: zaznacz poziom dowodów A w wyszukiwarce. Zostanie 495 punktów z konkretnymi liczbami pochodzącymi z metaanaliz lub dużych badań.
-- **Chcesz zobaczyć tylko to, co najbardziej się opłaca**: wybierz filtr „bardzo opłacalne”. Zostanie 122 punktów, które nic nie kosztują, zajmują mało czasu, nie wymagają wytrwałości i przynoszą korzyść z najwyższej kategorii. Dodaj filtr „co zyskujesz”, by zobaczyć priorytety w wybranej kategorii.
+- **Chcesz zobaczyć tylko najlepiej udokumentowane wnioski**: zaznacz poziom dowodów A w wyszukiwarce. Liczba punktów z poziomem A: 495. Każdy zawiera konkretne liczby pochodzące z metaanaliz lub dużych badań.
+- **Chcesz zobaczyć tylko to, co najbardziej się opłaca**: wybierz filtr „bardzo opłacalne”. Liczba punktów o najwyższej opłacalności: 122. Każdy nic nie kosztuje, zajmuje mało czasu, nie wymaga wytrwałości i przynosi korzyść z najwyższej kategorii. Dodaj filtr „co zyskujesz”, by zobaczyć priorytety w wybranej kategorii.
 - **Nie martw się, gdy tytuł sekcji zaczyna się od słowa „Nie”**: opisuje on problem, któremu sekcja ma zapobiegać (na przykład przedwczesnej śmierci lub marnowaniu czasu), a nie oznacza, że każdy punkt nakazuje czegoś zaniechać. Konkretne działania opisują tytuły punktów. Zaczynają się od czasownika i jasno wskazują, co zrobić albo czego nie robić. W sekcji 4 są zarówno zalecenie „zapisz zamiar w formie: kiedy, gdzie i co ma się wydarzyć”, jak i „nie oglądaj telewizji ani wiadomości podawanych w trybie ciągłym”. Czytaj tytuły punktów, a nie dopasowuj ich do tonu tytułu sekcji.
 
-Każde zalecenie wygląda tak:
+Każde zalecenie wygląda tak. Nazwy pól w plikach pozostają po chińsku, ponieważ odczytują je skrypty: 成本 oznacza koszt, 说人话 — proste wyjaśnienie, 收益 — korzyści, 证据等级 — poziom dowodów, 来源 — źródła, a 备注 — uwagi.
 
 ```markdown
-### 5. 把家里的食盐换成低钠盐（钾盐）
-- 成本：一袋比普通盐贵几元。买的时候顺手换，不额外占时间。口味几乎不变。
-- 说人话：得过中风或 60 岁以上有高血压的人，把家里的盐换成低钠盐，五年内死亡的概率低约 12%，中风低约 14%。
-- 收益：一项把人随机分成两组的试验，在中国农村做的，20995 人，都是得过卒中的人或者 60 岁以上的高血压病人，跟踪了 4.74 年。结果：用低钠盐的那组比用普通盐的那组，死亡风险低约 12%（RR 0.88）。卒中低约 14%（RR 0.86）。主要心血管事件低约 13%（RR 0.87）。
+### 5. Zastąp domową sól solą o obniżonej zawartości sodu (solą potasową)
+- 成本：Opakowanie kosztuje kilka juanów więcej. Wymiana nie zajmuje dodatkowego czasu. Smak prawie się nie zmienia.
+- 说人话：U osób po udarze lub po 60. roku życia z nadciśnieniem zmiana soli na sól o obniżonej zawartości sodu wiązała się z około 12% niższym ryzykiem zgonu w ciągu pięciu lat i około 14% niższym ryzykiem udaru.
+- 收益：W randomizowanym badaniu w chińskich wsiach wzięło udział 20 995 osób po udarze lub osób z nadciśnieniem w wieku co najmniej 60 lat. Obserwacja trwała 4,74 roku. W grupie używającej soli o obniżonej zawartości sodu ryzyko zgonu było niższe o około 12% (RR 0,88), udaru o około 14% (RR 0,86), a poważnych zdarzeń sercowo-naczyniowych o około 13% (RR 0,87).
 - 证据等级：A
-- 来源：Neal B 等 (2021). Effect of Salt Substitution on Cardiovascular Events and Death. NEJM. https://doi.org/10.1056/NEJMoa2105675
-- 备注：争议。试验对象是高危老人，健康年轻人换盐得到的好处要小得多。肾功能不全的人，或者正在吃保钾类药物的人，换盐前先问医生。
+- 来源：Neal B i in. (2021). Effect of Salt Substitution on Cardiovascular Events and Death. NEJM. https://doi.org/10.1056/NEJMoa2105675
+- 备注：争议。Badanie objęło osoby starsze i z wysokim ryzykiem. Zdrowi młodzi ludzie mogą odnieść znacznie mniejsze korzyści. Osoby z niewydolnością nerek lub przyjmujące leki oszczędzające potas powinny najpierw skonsultować zmianę z lekarzem.
 ```
 
-## 自己跑一份
+## Uruchom własną wersję
 
-Większość osób nie musi niczego samodzielnie uruchamiać: [wyszukiwarka online](https://eternity4719.github.io/HowToLiveBetter/) jest gotowa. Do czytania offline pobierz [pojedynczy plik HTML](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html) i otwórz go dwukrotnym kliknięciem.
+Większość osób nie musi niczego samodzielnie uruchamiać: [wyszukiwarka online](https://duszekmestre.github.io/HowToLiveBetter-PL/) jest gotowa. Do czytania offline pobierz [pojedynczy plik HTML](https://github.com/duszekmestre/HowToLiveBetter-PL/releases/download/epub-latest/HowToLiveBetter.html) i otwórz go dwukrotnym kliknięciem.
 
 Jeśli chcesz uruchomić stronę na własnym komputerze lub serwerze:
 
 ```bash
-git clone https://github.com/eternity4719/HowToLiveBetter.git
-cd HowToLiveBetter
+git clone https://github.com/duszekmestre/HowToLiveBetter-PL.git
+cd HowToLiveBetter-PL
 python -m http.server 8000
 ```
 
@@ -158,14 +162,14 @@ Jeśli chcesz samodzielnie wygenerować te cztery wersje (zwykle nie ma takiej p
 
 ```bash
 cd tools/epub && npm ci && npm run build   # EPUB
-node tools/offline/build.mjs               # 离线单文件 HTML
-node tools/pdf/build.mjs                   # PDF，另需 pandoc ≥ 3.1 和 typst ≥ 0.13
-node tools/anki/build.mjs                  # Anki 牌组，要 Node ≥ 22.13（用自带的 node:sqlite）
+node tools/offline/build.mjs               # Pojedynczy plik HTML offline
+node tools/pdf/build.mjs                   # PDF; wymagane też pandoc ≥ 3.1 i typst ≥ 0.13
+node tools/anki/build.mjs                  # Talia Anki; wymagany Node ≥ 22.13 (wbudowany moduł node:sqlite)
 ```
 
 Wygenerowane pliki znajdziesz w `dist/`.
 
-## 四种资源
+## Cztery zasoby
 
 Książka ma pomóc zachować cztery zasoby:
 
@@ -184,6 +188,8 @@ Liczby dotyczące śmiertelności, czasu i energii, pieniędzy oraz konsekwencji
 
 ## 证据分级
 
+*Poziomy dowodów*
+
 Każde zalecenie ma oznaczony poziom dowodów:
 
 | Poziom | Znaczenie |
@@ -192,13 +198,13 @@ Każde zalecenie ma oznaczony poziom dowodów:
 | B | Badania wspierają wniosek, ale nie dają dokładnej liczby, albo wniosek opiera się na małej próbie lub pojedynczym badaniu. |
 | C | Doświadczenie autora albo powszechna praktyka, bez bezpośrednich publikacji naukowych. |
 
-Spośród 765 punktów 495 ma poziom A, 218 — B, a 52 — C. Kolejne 88 oznaczono jako kontrowersyjne, a w trzech miejscach widnieje TODO — do weryfikacji. Punkty A i B, których wnioski są sporne, zawierają etykietę „kontrowersyjne” i dowody przeciwne. Źródła to wyłącznie publikacje pierwotne: artykuły naukowe z DOI lub linkiem do PubMed oraz raporty instytucji urzędowych, takich jak WHO, CDC czy chiński urząd statystyczny. Nie wykorzystano źródeł wtórnych. Przy kilku sprawach nieujawnionych przez władze zacytowano podpisane, oryginalne materiały dziennikarskie wyłącznie jako dowód, że takie zdarzenie miało miejsce. W polu źródeł podano kopię archiwalną strony, a w uwagach zaznaczono, że sprawę opisały wyłącznie media. Niepewne liczby oznaczono jako „do weryfikacji”.
+Poziomy dowodów: A — 495, B — 218, C — 52. Wpisy oznaczone jako „kontrowersyjne”: 88. Wpisy z TODO: 3. Punkty A i B, których wnioski są sporne, zawierają etykietę „kontrowersyjne” i dowody przeciwne. Źródła to wyłącznie publikacje pierwotne: artykuły naukowe z DOI lub linkiem do PubMed oraz raporty instytucji urzędowych, takich jak WHO, CDC czy chiński urząd statystyczny. Nie wykorzystano źródeł wtórnych. Przy kilku sprawach nieujawnionych przez władze zacytowano podpisane, oryginalne materiały dziennikarskie wyłącznie jako dowód, że takie zdarzenie miało miejsce. W polu źródeł podano kopię archiwalną strony, a w uwagach zaznaczono, że sprawę opisały wyłącznie media. Niepewne liczby oznaczono jako „do weryfikacji”.
 
 Poziom A oznacza tylko, że można sprawdzić konkretne liczby i ich źródła. Nie oznacza, że wykazano związek przyczynowy. Wśród punktów A są zarówno badania z losowym podziałem na grupy, jak i badania, w których jedynie obserwowano ludzi bez podziału na grupy. Te drugie nie pozwalają rozstrzygnąć, czy wynik spowodowało dane działanie, czy osoby, które je podejmowały, były już wcześniej zdrowsze. Rodzaj badania opisano w polu „Korzyści”: „losowo podzielono na dwie grupy” oznacza pierwszy typ, a „tylko obserwowano, bez podziału na grupy” — drugi. Poziom A w punktach o prawie i polityce oznacza, że przytoczono oryginalny przepis lub dokument urzędowy.
 
 Odsetki w polach „Korzyści” i „Prostym językiem” najczęściej oznaczają, że ryzyko jest o daną część niższe niż u osób, które nie podjęły działania. Nie oznaczają, że na każde 100 osób przypada o tyle mniej przypadków. Ten sam spadek ryzyka o 12% oznacza znacznie mniej zgonów wśród osób starszych, u których ryzyko jest wysokie, niż wśród młodych, u których ryzyko jest niewielkie. Najpierw sprawdź więc, jakiej grupy osób dotyczy wyjaśnienie, a potem odczytaj procent.
 
-## 性价比档
+## Kategorie opłacalności
 
 Poziom dowodów odpowiada na pytanie „czy tej liczbie można ufać?”, ale nie na pytanie „czy warto to zrobić?”. Dlatego każdy punkt ma też dwie dodatkowe etykiety: wielkość korzyści oraz jej kategorię. Wyszukiwarka łączy je z trzema rodzajami kosztów, by wyznaczyć poziom opłacalności:
 
@@ -210,11 +216,13 @@ Poziom dowodów odpowiada na pytanie „czy tej liczbie można ufać?”, ale ni
 
 Najniższy poziom trzech kosztów oznacza: brak wydatków, niewielki nakład czasu i brak konieczności wykazywania się wytrwałością. „Niewielki nakład czasu” to kilka minut jednorazowo albo czynność, którą można wykonać przy okazji.
 
-Spośród 765 punktów 122 (16%) mają bardzo wysoką opłacalność, 344 (45%) — wysoką, a 299 (39%) — zwykłą. Duża liczba punktów w środkowej kategorii jest zamierzona: korzyści dzielą się na trzy poziomy, a dalsze rozdrabnianie kategorii dawałoby tylko pozór precyzji.
+Kategorie opłacalności: bardzo wysoka — 122 (16%), wysoka — 344 (45%), zwykła — 299 (39%). Duża liczba punktów w środkowej kategorii jest zamierzona: korzyści dzielą się na trzy poziomy, a dalsze rozdrabnianie kategorii dawałoby tylko pozór precyzji.
 
 **Poziom opłacalności to ocena autora, a nie dowód naukowy**. Według zasad książki sama ta ocena ma poziom C. Nie zależy od poziomu dowodów i nie wpływa na niego. Punkt może mieć poziom dowodów A, a jednocześnie zwykłą opłacalność (szczepionka przeciw półpaścowi miała skuteczność 97,2% w badaniu RCT III fazy, ale dwie dawki kosztują kilka tysięcy juanów, a półpasiec rzadko prowadzi do śmierci). Może też mieć poziom C i bardzo wysoką opłacalność (ustawienie hasła blokady ekranu telefonu i kodu PIN karty SIM). „Zwykła” opłacalność nie oznacza, że czegoś nie należy robić. Wszystkie punkty zawierają zalecenia, ale przy tej kategorii sam musisz zdecydować, czy koszt jest wart korzyści.
 
 ## 读懂数字（术语表）
+
+*Jak czytać liczby (słowniczek)*
 
 Tekst używa potocznego języka, ale przy omawianiu badań nie da się uniknąć terminów statystycznych. Jeśli któregoś nie rozumiesz, sprawdź go w tabeli. W wyszukiwarce online wyjaśnienie pojawi się po najechaniu na podkreślone przerywaną linią słowo (na telefonie — po jego dotknięciu).
 
@@ -269,7 +277,9 @@ Tekst używa potocznego języka, ale przy omawianiu badań nie da się uniknąć
 
 ## 目录
 
-1. [Unikaj przedwczesnej śmierci](book/01-不要早死.md): zgony z przyczyn zewnętrznych, gaz i zatrucia, szczepienia, badania przesiewowe, kryzys psychiczny i czasowe okna ryzyka po myślach samobójczych, długotrwałe następstwa po odratowaniu, rok po ciężkim urazie po upadku, koszty życia z jedną nerką po jej oddaniu oraz obserwacja sprzedawców nerek, domowy zestaw awaryjny, widoczny gołym okiem krwiomocz i inne sygnały do zbadania, badanie gęstości kości u kobiet po 65. roku życia i leczenie po rozpoznaniu osteoporozy, sprawdzanie grubości lodu przed wejściem na zamarznięty akwen, osłona i okulary ochronne przy używaniu szlifierki kątowej, bezpośrednie pytanie bliskiej osoby o myśli samobójcze, leki przeciwkrzepliwe po rozpoznaniu migotania przedsionków, jednorazowe badanie przeciwciał przeciw HCV, wietrzenie przed wejściem do szamba lub studzienki, gastroskopia u osób z wysokim ryzykiem oraz niewkładanie namoczonych grzybów uszakowatych do wody na noc. Kategoria: śmiertelność ogólna lub konkretna przyczyna zgonu.
+*Spis treści*
+
+1. [Unikaj przedwczesnej śmierci](book/01-不要早死.md): zgony z przyczyn zewnętrznych, gaz i zatrucia, szczepienia, badania przesiewowe, kryzys psychiczny i czasowe okna ryzyka po myślach samobójczych, długotrwałe następstwa po odratowaniu, rok po ciężkim urazie po upadku, koszty życia z jedną nerką po jej oddaniu oraz obserwacja sprzedawców nerek, domowy zestaw awaryjny, widoczny gołym okiem krwiomocz i inne sygnały do zbadania, badanie gęstości kości u kobiet po 65. roku życia i leczenie po rozpoznaniu osteoporozy, sprawdzanie grubości lodu przed wejściem na zamarznięty akwen, osłona i okulary ochronne przy używaniu szlifierki kątowej, bezpośrednie pytanie bliskiej osoby o myśli samobójcze, leki przeciwkrzepliwe po rozpoznaniu migotania przedsionków, jednorazowe badanie przeciwciał przeciw HCV, wietrzenie przed wejściem do szamba lub studzienki, gastroskopia u osób z wysokim ryzykiem oraz niezostawianie namoczonych grzybów uszakowatych na noc. Kategoria: śmiertelność ogólna lub konkretna przyczyna zgonu.
 2. [Nie umieraj powoli](book/02-不要慢慢死.md): palenie i alkohol, ruch, sen, dieta (sól o obniżonej zawartości sodu, orzechy, pełne ziarna, mięso przetworzone, olej arachidowy tłoczony na miejscu i sprzedawany luzem, oleje roślinne zamiast smalcu), siedzący tryb życia oraz konkretne sposoby rzucania palenia i picia (leki na rzucanie palenia, wyznaczenie dnia, poradnia i telefon wsparcia, e-papierosy, niebezpieczeństwo samodzielnego odstawienia alkoholu przy objawach odstawiennych), długość drzemek, odsypianie po zarwanej nocy, liczba lat pracy na nocnej zmianie, włączanie okapu podczas gotowania, konsultacja terapii hormonalnej przy uderzeniach gorąca przed menopauzą i po niej, psy a długość życia, regularne badanie lipidów, opóźnianie cukrzycy w stanie przedcukrzycowym przez mniejsze porcje i ruch, wyrzucanie całego opakowania spleśniałych orzeszków ziemnych, kukurydzy lub orzechów oraz unikanie surowych ryb słodkowodnych. Kategoria: śmiertelność ogólna lub konkretna przyczyna zgonu. Opracowanie: [Zegar biologiczny i praca nocna](docs/生物钟和夜班.md).
 3. [Nie marnuj energii](book/03-不要浪费精力.md): sen, rozpraszanie i przerywanie pracy, wielozadaniowość, zobowiązania wobec innych, realistyczne oczekiwania przy kontaktach z instytucjami, nieprzeczekiwanie bólu miesiączkowego, terapia poznawczo-behawioralna przy przewlekłej bezsenności oraz badanie w kierunku bezdechu sennego. Kategoria: energia/czas.
 4. [Nie marnuj czasu](book/04-不要浪费时间.md): projekty bez korzyści, koszty utopione, prokrastynacja (wyjaśnienie emocjonalne, zmiana otoczenia, urządzenia zobowiązujące, czas kształtowania nawyku i materiały do samopomocy), spotkania i dojazdy. Kategoria: czas.
@@ -312,9 +322,13 @@ Plik `index.html` w głównym katalogu repozytorium to wyszukiwarka online. Pozw
 
 ## 正文
 
-Tekst główny podzielono według sekcji na 34 pliki w katalogu [book/](book/). Otwórz wybraną sekcję, klikając jej nazwę w powyższym spisie treści. Podział był konieczny, ponieważ jeden plik przekraczał limit 512 KB dla renderowania Markdown w GitHubie, przez co dalsze sekcje nie były widoczne. [Wyszukiwarka online](https://eternity4719.github.io/HowToLiveBetter/) łączy te pliki, więc sposób korzystania z książki pozostaje bez zmian.
+*Tekst główny*
+
+Liczba plików z tekstem głównym: 34. Znajdują się w katalogu [book/](book/). Otwórz wybraną sekcję, klikając jej nazwę w powyższym spisie treści. Podział był konieczny, ponieważ jeden plik przekraczał limit 512 KB dla renderowania Markdown w GitHubie, przez co dalsze sekcje nie były widoczne. [Wyszukiwarka online](https://duszekmestre.github.io/HowToLiveBetter-PL/) łączy te pliki, więc sposób korzystania z książki pozostaje bez zmian.
 
 ## 许可
+
+*Licencja*
 
 Tekst główny jest udostępniany na licencji [CC BY 4.0](LICENSE). Licencja obejmuje treści w katalogach book/ i docs/ oraz tekst tego pliku README. Możesz je kopiować, adaptować i wykorzystywać komercyjnie bez pytania autora, pod warunkiem że:
 
@@ -324,20 +338,20 @@ Tekst główny jest udostępniany na licencji [CC BY 4.0](LICENSE). Licencja obe
 
 Kod jest udostępniany na licencji [MIT](LICENSE-CODE), która obejmuje katalogi tools/ i skills/ oraz pliki index.html i .github/.
 
-## Star 走势
+## Historia gwiazdek
 
 [![Star History Chart](https://api.star-history.com/svg?repos=eternity4719/HowToLiveBetter&type=Date)](https://star-history.com/#eternity4719/HowToLiveBetter&Date)
 
-## 赞赏
+## Wsparcie autora
 
 Jeśli książka jest przydatna, możesz zeskanować kod WeChat i postawić autorowi kawę. To dobrowolne i nie wpływa na treść.
 
 <img src="ads/wechat-reward.png" alt="Kod QR do dobrowolnego wsparcia autora przez WeChat" width="240">
 
-## 广告位
+## Reklamy
 
 <a href="https://4.mcyyy.com"><img src="ads/mcyyy.webp" alt="Serwer Minecraft Yongheng Shijie, adres gry: 1.mcyyy.com" width="820"></a>
 
-## 商务合作
+## Współpraca biznesowa
 
 E-mail: [admin@mcyyy.com](mailto:admin@mcyyy.com)
