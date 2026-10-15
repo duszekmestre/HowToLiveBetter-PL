@@ -63,7 +63,7 @@ const esc = s => String(s ?? '').replace(/\*\*/g, '').replace(/\\([*_])/g, '$1')
 const pad = n => String(n).padStart(2, '0');
 const deckName = s => `${TITLE}::${pad(s.sec)} ${s.name}`;
 
-const FIELDS = ['节', '标题', '说人话', '成本', '要点', '链接'];
+const FIELDS = ['Sekcja', 'Tytuł', 'Opis', 'Koszt', 'Informacje', 'Link'];
 const notes = [];
 let due = 0;
 for (const s of sections) {
@@ -72,29 +72,31 @@ for (const s of sections) {
     const ratio = e.收益 ? ratioOf(cost, e.收益) : '';
     const grade = (e.grade ?? '').match(/^[ABC]/)?.[0] ?? '';
     const dispute = /^争议/.test(e.note ?? '');
+    const ratioLabel = { 极高: 'bardzo wysoka', 高: 'wysoka', 一般: 'przeciętna' }[ratio];
+    const scopeLabel = { 死亡率: 'długość życia', 金钱: 'pieniądze', 时间: 'czas i energia', 自由: 'wolność osobista' }[e.口径];
     const points = [
-      ratio && `性价比${ratio}`,
-      e.收益 && `收益${e.收益}`,
-      e.口径 && `口径：${e.口径}`,
-      grade && `证据 ${grade} 级${dispute ? '（有争议）' : ''}`,
+      ratioLabel && `Opłacalność: ${ratioLabel}`,
+      e.收益 && `Zysk: ${e.收益}`,
+      scopeLabel && `Zakres: ${scopeLabel}`,
+      grade && `Poziom dowodów: ${grade}${dispute ? ' (sporne)' : ''}`,
     ].filter(Boolean).join(' · ');
     const url = `${SITE}#e-${s.sec}-${e.n}`;
     const fields = [
-      `第 ${s.sec} 节 · ${esc(s.name)} · 第 ${e.n} 条`,
+      `Sekcja ${s.sec} · ${esc(s.name)} · pozycja ${e.n}`,
       esc(e.title),
       esc(e.human || ''),
       esc(e.cost || ''),
       esc(points),
-      `<a href="${url}">在线版看全文和来源</a>`,
+      `<a href="${url}">Pełny tekst i źródła online</a>`,
     ];
-    const tags = [`第${pad(s.sec)}节`, grade && `证据${grade}`, ratio && `性价比${ratio}`, e.口径 && `口径${e.口径}`, dispute && '争议']
+    const tags = [`Sekcja${pad(s.sec)}`, grade && `Dowody${grade}`, ratioLabel && `Opłacalność_${ratioLabel.replaceAll(' ', '_')}`, scopeLabel && `Zakres_${scopeLabel.replaceAll(' ', '_')}`, dispute && 'sporne']
       .filter(Boolean);
     notes.push({ s, e, fields, tags, due: due++ });
   }
 }
 
 // ---------- 笔记类型和牌组 ----------
-const CSS = `.card { font-family: "Segoe UI", -apple-system, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+const CSS = `.card { font-family: "Segoe UI", -apple-system, "Noto Sans", "Liberation Sans", sans-serif;
   font-size: 18px; line-height: 1.7; text-align: left; max-width: 40em; margin: 0 auto; padding: 0 12px; color: #213547; background: #fff; }
 .nightMode.card, .night_mode .card { color: rgba(255,255,245,.86); background: #1b1b1f; }
 .sec { font-size: 13px; color: #67676c; }
@@ -107,20 +109,20 @@ a { color: #3451b2; }
 .nightMode a, .night_mode a { color: #a8b1ff; }
 .nightMode .sec, .nightMode .hint, .nightMode .label { color: #98989f; }`;
 
-const QFMT = `<div class="sec">{{节}}</div>
-<div class="q">{{标题}}</div>
-<div class="hint">想一想：为什么值得做，要花多少代价？</div>`;
-const AFMT = `<div class="sec">{{节}}</div>
-<div class="q">{{标题}}</div>
+const QFMT = `<div class="sec">{{Sekcja}}</div>
+<div class="q">{{Tytuł}}</div>
+<div class="hint">Zastanów się: jakie korzyści daje ta wskazówka i jaki wiąże się z nią koszt?</div>`;
+const AFMT = `<div class="sec">{{Sekcja}}</div>
+<div class="q">{{Tytuł}}</div>
 <hr id="answer">
-{{#说人话}}<div class="label">说人话</div><div>{{说人话}}</div>{{/说人话}}
-{{#成本}}<div class="label">成本</div><div>{{成本}}</div>{{/成本}}
-<div class="points">{{要点}}</div>
-<div class="link">{{链接}}</div>`;
+{{#Opis}}<div class="label">Po ludzku</div><div>{{Opis}}</div>{{/Opis}}
+{{#Koszt}}<div class="label">Koszt</div><div>{{Koszt}}</div>{{/Koszt}}
+<div class="points">{{Informacje}}</div>
+<div class="link">{{Link}}</div>`;
 
 const model = {
-  id: MODEL_ID, name: `${TITLE}（问答卡）`, type: 0, mod: NOW_S, usn: -1, sortf: 1, did: ROOT_DECK_ID,
-  tmpls: [{ name: '问答', ord: 0, qfmt: QFMT, afmt: AFMT, did: null, bqfmt: '', bafmt: '' }],
+  id: MODEL_ID, name: `${TITLE} (pytania i odpowiedzi)`, type: 0, mod: NOW_S, usn: -1, sortf: 1, did: ROOT_DECK_ID,
+  tmpls: [{ name: 'Pytanie i odpowiedź', ord: 0, qfmt: QFMT, afmt: AFMT, did: null, bqfmt: '', bafmt: '' }],
   flds: FIELDS.map((name, ord) => ({ name, ord, sticky: false, rtl: false, font: 'Arial', size: 20, media: [] })),
   css: CSS, latexPre: '', latexPost: '', latexsvg: false, req: [[0, 'any', [1]]], tags: [], vers: [],
 };
@@ -130,9 +132,9 @@ const deck = (id, name, desc = '') => ({
   newToday: [0, 0], revToday: [0, 0], lrnToday: [0, 0], timeToday: [0, 0], extendNew: 0, extendRev: 0,
 });
 const commit = gitCommit();
-const rootDesc = `《${TITLE}》全书条目，一条一张卡，按节分子牌组。生成于 ${buildStamp()}（北京时间）`
-  + `${commit ? `，正文提交 ${commit.slice(0, 7)}` : ''}。正文会继续更新，以 <a href="${SITE}">在线版</a> 为准；`
-  + '重新下载导入会更新卡片内容，复习记录保留。';
+const rootDesc = `${TITLE} — wszystkie pozycje, jedna karta na każdą, pogrupowane według sekcji. Wygenerowano ${buildStamp()} (czas pekiński)`
+  + `${commit ? `, wersja źródłowa ${commit.slice(0, 7)}` : ''}. Treść jest aktualizowana; korzystaj z <a href="${SITE}">wersji online</a>. `
+  + 'Po ponownym pobraniu i imporcie treść kart zostanie zaktualizowana, a historia powtórek zachowana.';
 const decks = {
   1: deck(1, 'Default'),
   [ROOT_DECK_ID]: deck(ROOT_DECK_ID, TITLE, rootDesc),

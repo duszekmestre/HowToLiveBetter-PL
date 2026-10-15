@@ -6,9 +6,9 @@ import { fileURLToPath } from 'node:url';
 import { execSync } from 'node:child_process';
 
 export const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
-export const REPO = 'https://github.com/eternity4719/HowToLiveBetter';
-export const SITE = 'https://eternity4719.github.io/HowToLiveBetter/';
-export const TITLE = '高性价比人生指南';
+export const REPO = 'https://github.com/duszekmestre/HowToLiveBetter-PL';
+export const SITE = 'https://duszekmestre.github.io/HowToLiveBetter-PL/';
+export const TITLE = 'Przewodnik po życiu o wysokiej opłacalności';
 export const RELEASE = `${REPO}/releases/download/epub-latest`;
 
 // 一律按 LF 交给各套构建：Windows 上 core.autocrlf=true 检出的是 CRLF，离线版脚本
@@ -45,7 +45,9 @@ export function readBook() {
     if (a < 0 || b < 0) throw new Error(`README 里找不到 ${from} 到 ${to} 这一段`);
     return lines.slice(a, b).join('\n');
   };
-  const description = between('# 高性价比人生指南', '[![')
+  const titleLine = lines.find(l => /^# /.test(l));
+  if (!titleLine) throw new Error('README 里找不到书名标题');
+  const description = between(titleLine, '[![')
     .split('\n').slice(1).map(l => l.replace(/<[^>]+>/g, '').trim()).filter(Boolean).join('');
   const frontMd = between('## 这本书想回答的问题', '## 目录');
   const contentsMd = between('## 目录', '## 正文')

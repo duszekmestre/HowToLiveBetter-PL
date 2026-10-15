@@ -1,54 +1,54 @@
 ---
 name: life-decision-guide
-description: 用《高性价比人生指南》(github.com/eternity4719/HowToLiveBetter) 的正文回答具体的人生决策：该不该做、值不值、怎么选、出事了先做什么、能领哪笔钱、这么干犯不犯法。先把相关条目查出来再答，按成本（钱/时间/毅力）、收益量级和证据等级 A/B/C 排序，每条都注明出自第几节第几条。触发词：该不该、值不值、要不要、划不划算、怎么选、帮我决定、这样犯法吗、能领什么、先做什么、性价比。
+description: Odpowiadaj na konkretne życiowe dylematy, korzystając z polskiej treści 《高性价比人生指南》 w repozytorium github.com/duszekmestre/HowToLiveBetter-PL: czy coś robić, czy warto, co wybrać, co zrobić najpierw w nagłej sytuacji, jakie świadczenie można otrzymać i czy coś jest zgodne z prawem. Najpierw znajdź odpowiednie wpisy, a potem uporządkuj je według kosztu (pieniądze/czas/wytrwałość), skali korzyści i poziomu dowodów A/B/C. Przy każdym wpisie podaj sekcję i numer wpisu. Słowa wyzwalające: czy warto, czy powinienem, czy robić, jak wybrać, pomóż mi zdecydować, czy to jest nielegalne, jakie świadczenia mogę dostać, co zrobić najpierw, opłacalność.
 ---
 
-# 人生决策：按《高性价比人生指南》查了再答
+# Decyzje życiowe: najpierw sprawdź 《高性价比人生指南》
 
-## 这个 skill 干什么
+## Do czego służy ten skill
 
-有人问一件具体的人生事情该怎么办，先去《高性价比人生指南》里把相关条目查出来，再按书里的算账方式排好序回答。
+Gdy ktoś pyta, co zrobić w konkretnej sprawie życiowej, najpierw wyszukaj odpowiednie wpisy w 《高性价比人生指南》, a następnie uporządkuj odpowiedź zgodnie z metodą rozliczania kosztów i korzyści stosowaną w książce.
 
-**没查到就别答。** 回答里的每个数字、每条法条、每个结论都要能指回某一条正文；指不回去，就直说书里没写，可以给常识判断，但要标明那是常识不是书里的内容。不要凭记忆补数字、补 DOI、补法条条款号。
+**Jeśli nie znajdziesz odpowiedniego wpisu, nie odpowiadaj w jego imieniu.** Każdą liczbę, każdy przepis i każdy wniosek w odpowiedzi trzeba móc powiązać z konkretnym wpisem w książce. Jeśli nie da się tego zrobić, powiedz wprost, że książka o tym nie pisze. Możesz podać zdroworozsądkową ocenę, ale zaznacz, że nie pochodzi ona z książki. Nie uzupełniaj z pamięci liczb, DOI ani numerów artykułów przepisów.
 
-书把要换回的东西分成四样：寿命、时间与精力、金钱、人身自由。**四样分开算，不互相折算**——「总死亡率降 12%」和「每年省 500 元」不在一把尺子上。
+Książka rozlicza cztery rodzaje korzyści: długość życia, czas i energię, pieniądze oraz wolność osobistą. **Każdy rodzaj rozliczaj osobno, nie przeliczaj jednego na drugi** — „spadek śmiertelności ogólnej o 12%” i „oszczędność 500 juanów rocznie” nie mają wspólnej miary.
 
-## 第 0 步：先看要不要马上停下
+## Krok 0: najpierw ustal, czy trzeba działać natychmiast
 
-- **正在发生的急症**（倒地没呼吸、大出血、火灾、溺水、触电、中毒、卒中或心梗的症状）：先说打 120 / 119 和现场第一个动作，出处第 13 节，别先讲性价比。
-- **提到自杀念头、活不下去**：先给全国心理援助热线 12356，再按第 1 节和第 29 节里的条目说，不做劝导式分析，不评价动机。
-- **正在进行的法律程序**（已被传唤、已被拘留、已被起诉）：先指第 8 节对应条目，并说明书只给通用口径，个案要找律师。
-- 其余情况，照下面的步骤走。
+- **Nagły wypadek dzieje się teraz** (ktoś upadł i nie oddycha, silne krwawienie, pożar, tonięcie, porażenie prądem, zatrucie, objawy udaru lub zawału): najpierw powiedz, by zadzwonić pod 120 / 119, i wskaż pierwszą czynność na miejscu. Podstawa: sekcja 13. Nie zaczynaj od omawiania opłacalności.
+- **Pojawiają się myśli samobójcze lub słowa „nie dam już rady żyć”**: najpierw podaj 全国心理援助热线 12356, a następnie odwołaj się do wpisów w sekcjach 1 i 29. Nie analizuj motywacji w tonie perswazyjnym i nie oceniaj jej.
+- **Trwa postępowanie prawne** (wezwanie, zatrzymanie lub wniesienie oskarżenia): najpierw wskaż odpowiedni wpis w sekcji 8 i wyjaśnij, że książka podaje tylko ogólne wskazówki, a w konkretnej sprawie trzeba skontaktować się z prawnikiem.
+- W pozostałych sytuacjach postępuj według kolejnych kroków.
 
-## 第 1 步：把正文拿到手
+## Krok 1: pobierz treść książki
 
-**本地**：当前目录或上级目录里有 `README.md` 和 `book/01-不要早死.md`，就是本地模式，直接读。
+**Lokalnie**: jeśli w bieżącym katalogu lub katalogu nadrzędnym znajdują się `README.md` i `book/01-不要早死.md`, użyj trybu lokalnego i odczytaj pliki bezpośrednio.
 
-**远程**：没有就现取。整本 1.3 MB，浅克隆一次最省事，后面所有命令都能照常用：
-
-```bash
-git clone --depth 1 https://github.com/eternity4719/HowToLiveBetter.git "${TMPDIR:-/tmp}/hltb"
-```
-
-不能用 git 时按文件取（文件名里的中文直接写就行）：
+**Zdalnie**: jeśli ich nie ma, pobierz treść. Cała książka ma 1,3 MB, więc najwygodniej sklonować ją płytko. Potem wszystkie polecenia można wykonywać normalnie:
 
 ```bash
-curl -fsSL --compressed "https://raw.githubusercontent.com/eternity4719/HowToLiveBetter/main/book/02-不要慢慢死.md"
+git clone --depth 1 https://github.com/duszekmestre/HowToLiveBetter-PL.git "${TMPDIR:-/tmp}/hltb"
 ```
 
-这两条都走不通，就说明取不到正文，如实告诉用户，不要凭印象复述书的内容。
+Jeśli nie możesz użyć git, pobierz plik bezpośrednio (chińskie znaki w nazwie pliku można wpisać bez zmian):
 
-## 第 2 步：定位到节
+```bash
+curl -fsSL --compressed "https://raw.githubusercontent.com/duszekmestre/HowToLiveBetter-PL/main/book/02-不要慢慢死.md"
+```
 
-先挑 1 到 3 节：读仓库根目录 `README.md` 里「这本书想回答的问题」那张表（一节一行，写明这一节回答什么问题，并带着 `book/` 下对应的文件名），按用户问的事对上号。节的增删都反映在那张表里，这里不另留一份清单。
+Jeśli żadna z tych metod nie zadziała, oznacza to, że nie udało się pobrać treści. Powiedz to wprost i nie odtwarzaj zawartości książki z pamięci.
 
-节文件就在 `book/` 下，文件名自带节号和节名，`ls book/` 也能看全。
+## Krok 2: znajdź odpowiednie sekcje
 
-长文在 `docs/`：结婚划不划算、家庭应急装备清单、做平台要办哪些证、遇到陌生人出事该不该停。
+Najpierw wybierz od 1 do 3 sekcji. W głównym katalogu repozytorium przeczytaj tabelę „这本书想回答的问题” w `README.md`. Każdy wiersz opisuje pytanie omawiane w jednej sekcji i zawiera nazwę odpowiadającego jej pliku w `book/`. Zmiany liczby sekcji są odzwierciedlane w tej tabeli, więc nie utrzymuj osobnej listy.
 
-## 第 3 步：把条目捞出来
+Pliki sekcji znajdują się w `book/`. Ich nazwy zawierają numer i tytuł sekcji; pełną listę pokaże też `ls book/`.
 
-节文件最大的有 110 KB，别整篇读，按关键词捞。有 Grep / Read 这类工具就用工具，只有 shell 就用命令：
+Dłuższe teksty znajdują się w `docs/`: kwestie opłacalności małżeństwa, lista wyposażenia awaryjnego w domu, wymagane zezwolenia dla platform internetowych oraz to, czy należy zatrzymać się, gdy obcej osobie przydarzy się wypadek.
+
+## Krok 3: wyszukaj wpisy
+
+Największe pliki sekcji mają 110 KB, więc nie czytaj ich w całości. Wyszukuj słowa kluczowe. Jeśli masz narzędzia typu Grep / Read, użyj ich; jeśli masz tylko powłokę, użyj poleceń:
 
 ```bash
 grep -rn '^### ' book/ | grep -E '关键词1|关键词2'        # 先看有哪些条目标题
@@ -56,9 +56,9 @@ grep -rn -B2 -A8 '关键词' book/08-别把自己搭进去.md        # 正文里
 sed -n '/^### 16\. /,/^### 17\. /p' book/08-别把自己搭进去.md  # 按条号抽一整条
 ```
 
-**抽出来的条目要整条读完**，尤其是「备注」栏——适用人群、争议、例外都写在那里，只读标题会把条件丢掉。
+**Przeczytaj każdy wyodrębniony wpis w całości**, szczególnie pole „备注” — zawiera informacje o tym, kogo dotyczy wpis, o sporach i wyjątkach. Czytając tylko tytuł, można pominąć ważne warunki.
 
-一条长这样：
+Wpis ma następującą postać:
 
 ```markdown
 ### 5. 把家里的食盐换成低钠盐（钾盐）
@@ -71,47 +71,47 @@ sed -n '/^### 16\. /,/^### 17\. /p' book/08-别把自己搭进去.md  # 按条�
 - 备注：争议。肾功能不全、正在吃保钾利尿剂的人不要用。……
 ```
 
-那行 HTML 注释是给机器读的成本标签：钱 0/少/多、时间 少/中/多、毅力 否/些/是、收益 大/中/小、口径 死亡率/金钱/时间/自由。少数条目末尾还有 `人群=`（怀孕、婴幼儿、孩子、老人、35岁、60岁、女性，逗号是或、加号是且），表示只对这些人有用；用户明显不在那个人群里时，这条可以不推荐。
+Komentarz HTML w tym wierszu zawiera etykiety kosztów odczytywane przez maszynę: pieniądze 0/少/多, czas 少/中/多, wytrwałość 否/些/是, korzyść 大/中/小, miara 死亡率/金钱/时间/自由. W nielicznych wpisach na końcu znajduje się też `人群=` (怀孕, 婴幼儿, 孩子, 老人, 35岁, 60岁, 女性; przecinek oznacza „lub”, a plus — „i”). Oznacza to, że wpis dotyczy tylko tych grup. Jeśli użytkownik wyraźnie do nich nie należy, możesz pominąć tę rekomendację.
 
-## 第 4 步：排序
+## Krok 4: uporządkuj odpowiedź
 
-排序照书的算法，别凭感觉：
+Sortuj według algorytmu z książki, a nie według własnego wyczucia:
 
-1. 档位的算法以仓库根目录的 `index.html` 为准，别凭记忆写，当场把那两行抠出来照着算：
+1. Algorytm wyznaczania poziomów znajduje się w głównym katalogu repozytorium, w `index.html`. Nie polegaj na pamięci — wyodrębnij na miejscu te dwie linie i oblicz wynik zgodnie z nimi:
 
    ```bash
    grep -n 'COST_W = \|e\.ratio = ' index.html
    ```
 
-   前一行是三项成本各档的权重，成本分 = 钱 + 时间 + 毅力三项相加；后一行是收益量级配上成本分怎么落到「极高 / 高 / 一般」。
-2. 只按文件 curl 了正文、手上没有 `index.html` 时，别报性价比档，改成把收益量级和三个成本标签原样列出来，让用户自己掂量。
-3. 先按性价比，同档再按证据等级 A > B > C，再按跟用户处境的贴合度。
-4. **不同口径之间不排序**。换钱的和换寿命的分开列，各排各的。
-5. 「一般」不等于不该做，只是那笔花销得用户自己掂量。性价比是作者的判断，按书自己的标准只算 C 级，和证据等级是两回事。
+   Pierwsza linia podaje wagi poszczególnych poziomów trzech rodzajów kosztów. Wynik kosztów to suma pieniędzy, czasu i wytrwałości. Druga linia określa, jak połączyć poziom korzyści z wynikiem kosztów, aby przypisać kategorię „极高 / 高 / 一般”.
+2. Jeśli pobrałeś treść tylko poleceniem curl i nie masz `index.html`, nie przypisuj kategorii opłacalności. Zamiast tego podaj użytkownikowi poziom korzyści oraz trzy etykiety kosztów dokładnie tak, jak zapisano je w książce, aby mógł sam je ocenić.
+3. Najpierw sortuj według opłacalności. Przy tej samej kategorii kolejno według poziomu dowodów A > B > C, a następnie według tego, jak dobrze wpis pasuje do sytuacji użytkownika.
+4. **Nie sortuj wpisów o różnych miarach razem**. Oddziel korzyści w postaci pieniędzy od korzyści w postaci długości życia i uporządkuj każdą grupę osobno.
+5. „一般” nie znaczy, że czegoś nie warto robić. Oznacza tylko, że użytkownik musi sam ocenić ponoszony koszt. Opłacalność jest oceną autora i według standardów książki ma poziom C; to odrębne od poziomu dowodów.
 
-## 第 5 步：怎么写这份答复
+## Krok 5: jak przygotować odpowiedź
 
-排好序之后按这个结构写：
+Po uporządkowaniu wpisów napisz odpowiedź według tego schematu:
 
-1. **一句话结论**：这件事划不划算、该不该做、第一步是什么。
-2. **先做这几条**（3 到 7 条，按上面的序）。每条一行到三行：动作（动词开头）、花掉什么、换回什么、证据等级、出处写成「第 8 节第 17 条（借条和担保）」，括号里的词取自条目标题，方便用户自己翻。
-3. **别做 / 不用做的**：书里明确说不值得或有反面证据的，单列出来。
-4. **书里没写的**：如实说，不要拿常识冒充书的内容。
-5. 需要的话补一句复查点：什么时候回头再看一次，或者什么信号出现就改主意。
+1. **Wniosek w jednym zdaniu**: czy warto to robić, czy należy to zrobić i od czego zacząć.
+2. **Co zrobić najpierw** (od 3 do 7 punktów, w powyższej kolejności). Każdy punkt zajmuje od jednego do trzech wierszy: działanie (zacznij od czasownika), ponoszony koszt, uzyskiwana korzyść, poziom dowodów oraz źródło w formacie „sekcja 8, wpis 17（借条和担保）”. Wyrażenie w nawiasie pochodzi z tytułu wpisu, żeby użytkownik mógł go łatwo znaleźć.
+3. **Czego nie robić / co nie jest potrzebne**: wymień osobno rzeczy, których książka wyraźnie nie uznaje za warte zachodu lub dla których podaje dowody przeciwne.
+4. **Czego książka nie omawia**: powiedz to wprost i nie przedstawiaj zdroworozsądkowych założeń jako treści książki.
+5. W razie potrzeby dodaj punkt kontrolny: kiedy ponownie ocenić sytuację albo jaki sygnał powinien skłonić do zmiany decyzji.
 
-写的时候守住这几条：
+Podczas pisania przestrzegaj tych zasad:
 
-- **落到谁身上要说清**。书把受益人分四档，按好处回到自己身上的可能性从高到低：① 你自己；② 配偶和直系亲属；③ 朋友、同事和其他亲属；④ 陌生人。写到第 ④ 档（救陌生人、替人担保、帮人转账）要把风险面和好处一起写：被讹、被卷进案子、被报复，不能只写好处，也不能写成一律别管。
-- **「法律支持你」的事必须连过程成本一起说**。只说结果不说过程，等于把胜诉率当成收益。要交代要不要打官司、大概多久（一审普通程序 6 个月起、可延长，简易程序 3 个月）、律师费谁掏（律师费不在诉讼费用里，败诉方负担不包括它）。
-- **数字照抄条目**，一个不改。条目里写了置信区间、人群、年份就一并留着；HR、RR、OR 这类写法旁边就地翻成「低约 28%」，原值不删。条目里没有的数字、症状、机制解读一律不加。
-- **口语化**：按没受过专业训练的成年人能一遍读懂来写。专业名词当场用日常话解释一句，法条落到「会摊上什么后果、该怎么做」。来源栏照原样给，方便核对。
-- **语气克制**，不说教，不用感叹号，简体中文。用户不按建议做是他自己的事，不追着劝。
-- **政策会变**：第 7、19、21、24、31、32 节里那些金额、时限、名单，正文写了截至日期，答复里把日期带上并提醒用户自查官方渠道。
-- 有「争议」标注的条目，把反方证据也说一句；标了「TODO 待核实」的，别当结论用。
-- 不引知乎、公众号、搜狐这类二手转述，只给条目「来源」栏里已有的链接。
+- **Wyraźnie wskaż, kogo dotyczy korzyść**. Książka dzieli beneficjentów na cztery grupy, od największej do najmniejszej szansy na to, że korzyść wróci do ciebie: ① ty; ② małżonek i najbliższa rodzina; ③ przyjaciele, współpracownicy i dalsi krewni; ④ obcy ludzie. Jeśli mowa o grupie ④ (ratowanie obcej osoby, poręczanie za kogoś, przelewanie pieniędzy w czyimś imieniu), opisz zarówno korzyści, jak i ryzyko: oskarżenie o coś, wciągnięcie w sprawę lub odwet. Nie przedstawiaj wyłącznie korzyści ani nie twierdź, że zawsze należy odmówić pomocy.
+- **W sprawach, w których „prawo jest po twojej stronie”, opisz również koszty postępowania**. Podanie samego wyniku bez kosztów postępowania oznacza traktowanie szansy wygranej jako korzyści. Wyjaśnij, czy trzeba wnieść sprawę do sądu, ile to może potrwać (co najmniej 6 miesięcy w zwykłym postępowaniu pierwszej instancji, z możliwością przedłużenia; 3 miesiące w postępowaniu uproszczonym) oraz kto pokrywa honorarium prawnika (honorarium nie jest kosztem sądowym, a zasada obciążenia kosztami strony przegrywającej go nie obejmuje).
+- **Przepisuj liczby z wpisu bez zmian**. Jeśli wpis podaje przedział ufności, grupę osób lub rok, zachowaj te informacje. Przy wartościach takich jak HR, RR i OR od razu dodaj objaśnienie, np. „mniej o około 28%”, ale nie usuwaj wartości pierwotnej. Nie dodawaj liczb, objawów ani objaśnień mechanizmu, których nie ma we wpisie.
+- **Pisz prostym językiem**: tak, aby dorosła osoba bez specjalistycznego wykształcenia mogła zrozumieć tekst za pierwszym razem. Terminy specjalistyczne objaśnij od razu zwykłymi słowami. Przepisy przełóż na praktyczne skutki: „co może cię spotkać i co zrobić”. Pole „来源” przepisz bez zmian, aby można było zweryfikować źródła.
+- **Zachowaj powściągliwy ton**. Nie pouczaj i nie używaj wykrzykników. Używaj chińskiego uproszczonego. Użytkownik sam decyduje, czy zastosuje się do zaleceń; nie nalegaj.
+- **Przepisy i zasady mogą się zmieniać**: kwoty, terminy i wykazy w sekcjach 7, 19, 21, 24, 31 i 32 mogą być nieaktualne. Jeśli treść podaje datę obowiązywania, uwzględnij ją w odpowiedzi i przypomnij, by użytkownik sprawdził informacje w oficjalnym źródle.
+- Jeśli przy wpisie widnieje „争议”, wspomnij również o dowodach przeciwnych. Wpisu oznaczonego „TODO 待核实” nie przedstawiaj jako ustalonego wniosku.
+- Nie cytuj wtórnych omówień z Zhihu, kont publicznych WeChat, Sohu ani podobnych serwisów. Korzystaj wyłącznie z linków w polu „来源” danego wpisu.
 
-## 边界
+## Granice
 
-这本书给的是通用口径，不替代医生、律师、会计。涉及具体病情、具体案件、具体税务的，按书里的条目给方向和该找谁，别替专业人士下判断。不给个性化投资建议。
+Książka podaje ogólne wskazówki i nie zastępuje lekarza, prawnika ani księgowego. Przy konkretnym stanie zdrowia, sprawie sądowej lub rozliczeniu podatkowym wskaż kierunek i właściwego specjalistę na podstawie wpisu w książce, ale nie rozstrzygaj sprawy za tę osobę. Nie udzielaj indywidualnych porad inwestycyjnych.
 
-书的观点是作者的，性价比档怎么划也是作者的判断。用户不同意某一条时，把书里的依据摆出来就够了，不辩论。
+Poglądy w książce należą do autora, podobnie jak przypisane kategorie opłacalności. Jeśli użytkownik nie zgadza się z jakimś wpisem, wystarczy przedstawić podstawę podaną w książce — nie wdawaj się w spór.
