@@ -1,5 +1,5 @@
 import glob,re,sys
-f='book/13-紧急情况.md'
+f='book/13-Nagłe-sytuacje-co-zrobić-najpierw.md'
 lines=open(f,encoding='utf-8').read().split('\n')
 n=0
 for p in sorted(glob.glob('_pl13/p*.txt')):

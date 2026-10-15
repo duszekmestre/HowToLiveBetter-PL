@@ -2,7 +2,7 @@
 
 # Zanim zmienisz pracę lub miasto: rachunki do zrobienia i formalności do załatwienia
 
-Zmiana pracy i przeprowadzka dotyczą spraw opisanych w sekcjach 2, 4, 5, 7, 11, 15, 19 i kilku innych. Najpierw znajdziesz cztery zestawienia (zdrowie, ludzie i relacje, czas, pieniądze) z punktami, które warto sprawdzić przed podjęciem decyzji. Potem, w kolejności chronologicznej, opisano formalności: przed odejściem z pracy, przy podejmowaniu nowej pracy i po przeprowadzce. Przy każdym punkcie podano tylko, co sprawdzić i co zrobić. Liczby i podstawy znajdziesz we wskazanej w nawiasie pozycji. Sam decydujesz, czy odejść i dokąd; ten tekst nie podejmuje tej decyzji za ciebie. Jeśli firma cię zwolniła, skorzystaj z osobnego tekstu [Co robić najpierw po zwolnieniu](../docs/被裁了之后先做什么.md).
+Zmiana pracy i przeprowadzka dotyczą spraw opisanych w sekcjach 2, 4, 5, 7, 11, 15, 19 i kilku innych. Najpierw znajdziesz cztery zestawienia (zdrowie, ludzie i relacje, czas, pieniądze) z punktami, które warto sprawdzić przed podjęciem decyzji. Potem, w kolejności chronologicznej, opisano formalności: przed odejściem z pracy, przy podejmowaniu nowej pracy i po przeprowadzce. Przy każdym punkcie podano tylko, co sprawdzić i co zrobić. Liczby i podstawy znajdziesz we wskazanej w nawiasie pozycji. Sam decydujesz, czy odejść i dokąd; ten tekst nie podejmuje tej decyzji za ciebie. Jeśli firma cię zwolniła, skorzystaj z osobnego tekstu [Co robić najpierw po zwolnieniu](../docs/Co-zrobić-po-zwolnieniu.md).
 
 ## Przed decyzją: rachunek zdrowia
 

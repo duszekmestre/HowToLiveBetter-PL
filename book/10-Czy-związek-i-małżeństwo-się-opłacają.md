@@ -2,7 +2,7 @@
 
 # 10. Czy miłość i małżeństwo się opłacają
 
-Ten rozdział rozkłada pytanie „czy małżeństwo się opłaca" na kilka osobnych rachunków: pieniądze, czas, zdrowie, ryzyko prawne i jakość związku. Każdy rachunek opiera się wyłącznie na liczbach, do których da się dotrzeć w źródle. Źródłami są oficjalne statystyki albo metaanalizy (zebranie danych z wielu badań i ponowne policzenie ich razem). Nie oceniamy tu moralnie i nie wyciągamy za Ciebie wniosków. Rachunki zdrowotne liczymy ryzykiem zgonu, rachunki czasowe liczymy minutami dziennie, a rachunki prawne liczymy tym, co mówią przepisy. Tych trzech sposobów liczenia nie przeliczamy na siebie nawzajem. Metodę rozkładania rachunków, listę do uzupełnienia i typowe błędy opisuje [docs/结婚划不划算.md](../docs/结婚划不划算.md).
+Ten rozdział rozkłada pytanie „czy małżeństwo się opłaca" na kilka osobnych rachunków: pieniądze, czas, zdrowie, ryzyko prawne i jakość związku. Każdy rachunek opiera się wyłącznie na liczbach, do których da się dotrzeć w źródle. Źródłami są oficjalne statystyki albo metaanalizy (zebranie danych z wielu badań i ponowne policzenie ich razem). Nie oceniamy tu moralnie i nie wyciągamy za Ciebie wniosków. Rachunki zdrowotne liczymy ryzykiem zgonu, rachunki czasowe liczymy minutami dziennie, a rachunki prawne liczymy tym, co mówią przepisy. Tych trzech sposobów liczenia nie przeliczamy na siebie nawzajem. Metodę rozkładania rachunków, listę do uzupełnienia i typowe błędy opisuje [docs/Czy-małżeństwo-się-opłaca.md](../docs/Czy-małżeństwo-się-opłaca.md).
 
 Pozycje tego rozdziału są pogrupowane tematycznie w bloki poniżej; w nawiasach podano numery pozycji.
 
@@ -160,7 +160,7 @@ Pozycje tego rozdziału są pogrupowane tematycznie w bloki poniżej; w nawiasac
 - 收益：Korzyść starszych członków rodziny jest prawdziwa. Ale nie przekształca się automatycznie w Twoją korzyść zdrowotną (pozycja 8) ani w jakość związku (pozycja 4, o tym, czy związek jest dobry, decydują własne odczucia). Natomiast rachunek czasu (pozycja 9), rachunek pieniędzy (pozycje od 10 do 12) i koszt wyjścia (pozycja 15) ponosi w całości zainteresowany. Po rozdzieleniu rachunków każdy sam zobaczy, czy opłacalność „ślubu jako zadania do odhaczenia" jest wysoka, czy niska
 - 证据等级：C
 - 来源：作者经验，方法类建议；数据部分见本节前面各条
-- 备注：Kolumnę starszych też można policzyć jako bardzo ciężką pozycję i to Ty decydujesz, jak to rozważyć. Listę do uzupełnienia znajdziesz w [docs/结婚划不划算.md](../docs/结婚划不划算.md)
+- 备注：Kolumnę starszych też można policzyć jako bardzo ciężką pozycję i to Ty decydujesz, jak to rozważyć. Listę do uzupełnienia znajdziesz w [docs/Czy-małżeństwo-się-opłaca.md](../docs/Czy-małżeństwo-się-opłaca.md)
 
 ### 17. Traktuj jakość związku jako rachunek zdrowotny: w kłótni mów o sprawie, nie o osobie, nie obrażaj i nie dokuczaj
 <!-- 成本标签: 钱=0 时间=少 毅力=些 收益=小 口径=死亡率 -->
