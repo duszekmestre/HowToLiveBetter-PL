@@ -2,7 +2,7 @@
 
 # 20. Jak opiekować się nowo narodzonym dzieckiem
 
-口径：Śmiertelność niemowląt i pieniądze. Ta sekcja obejmuje tylko to, co decyduje o tym, czy dziecko przeżyje, albo ile wydasz, i to wyłącznie sprawy, w których różnica jest wystarczająco duża i są na to twarde dowody. Szczegółów wychowawczych, takich jak jak uspokajać dziecko czy jak je nosić, ta książka nie opisuje. Sprawy do załatwienia przed porodem i w dniu wypisu ze szpitala: patrz sekcja 27.
+Zakres: śmiertelność niemowląt i pieniądze. Ta sekcja obejmuje tylko to, co decyduje o tym, czy dziecko przeżyje, albo ile wydasz, i to wyłącznie sprawy, w których różnica jest wystarczająco duża i są na to twarde dowody. Szczegółów wychowawczych, takich jak jak uspokajać dziecko czy jak je nosić, ta książka nie opisuje. Sprawy do załatwienia przed porodem i w dniu wypisu ze szpitala: patrz sekcja 27.
 
 ### 1. Niech niemowlę śpi na plecach, na twardym podłożu, w pokoju rodziców, ale w osobnym łóżeczku, i nie kładź do łóżeczka żadnych miękkich rzeczy
 <!-- 成本标签: 钱=0 时间=少 毅力=是 收益=大 口径=死亡率 人群=婴幼儿,怀孕 -->
