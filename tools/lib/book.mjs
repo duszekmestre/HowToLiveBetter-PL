@@ -49,8 +49,8 @@ export function readBook() {
   if (!titleLine) throw new Error('README 里找不到书名标题');
   const description = between(titleLine, '[![')
     .split('\n').slice(1).map(l => l.replace(/<[^>]+>/g, '').trim()).filter(Boolean).join('');
-  const frontMd = between('## 这本书想回答的问题', '## 目录');
-  const contentsMd = between('## 目录', '## 正文')
+  const frontMd = between('## Na jakie pytania odpowiada ta książka', '## Spis treści');
+  const contentsMd = between('## Spis treści', '## Tekst książki')
     .split('\n\n').filter(p => !p.includes('index.html')).join('\n\n');
   const bookFiles = unique([...contentsMd.matchAll(/\]\((book\/[^)#]+\.md)\)/g)].map(m => m[1]));
   const docFiles = unique([...readme.matchAll(/\]\((docs\/[^)#/]+\.md)\)/g)].map(m => m[1]));

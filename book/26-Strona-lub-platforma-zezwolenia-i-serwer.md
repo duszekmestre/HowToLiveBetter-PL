@@ -2,7 +2,7 @@
 
 # 26. Budujesz stronę internetową lub platformę: licencje, rejestracja (备案) i serwer
 
-Chcesz zrobić stronę internetową albo aplikację. Ta sekcja odpowiada na cztery pytania: jakim rodzajem działalności jest to w świetle prawa, jaką licencję trzeba uzyskać, gdzie postawić serwer oraz kto odpowiada za to, co użytkownicy tam publikują, i za pieniądze, które tam przepływają. Rozliczamy to w wymiarze wolności osobistej i pieniędzy. Jeśli jesteś zatrudnionym specjalistą IT, czerwone linie opisuje sekcja 11. Jak zarejestrować spółkę i jak rozliczać podatki, opisuje sekcja 12; tu tego nie powtarzamy. Tabelę zestawiającą rodzaje licencji i tabelę decyzyjną wyboru serwera znajdziesz w [docs/做平台要办哪些证.md](../docs/做平台要办哪些证.md).
+Chcesz zrobić stronę internetową albo aplikację. Ta sekcja odpowiada na cztery pytania: jakim rodzajem działalności jest to w świetle prawa, jaką licencję trzeba uzyskać, gdzie postawić serwer oraz kto odpowiada za to, co użytkownicy tam publikują, i za pieniądze, które tam przepływają. Rozliczamy to w wymiarze wolności osobistej i pieniędzy. Jeśli jesteś zatrudnionym specjalistą IT, czerwone linie opisuje sekcja 11. Jak zarejestrować spółkę i jak rozliczać podatki, opisuje sekcja 12; tu tego nie powtarzamy. Tabelę zestawiającą rodzaje licencji i tabelę decyzyjną wyboru serwera znajdziesz w [docs/Zezwolenia-dla-platformy-internetowej.md](../docs/Zezwolenia-dla-platformy-internetowej.md).
 
 ### 1. Platforma nie powinna sama przyjmować pieniędzy i przekazywać ich sprzedawcom – niech pieniądze płyną przez licencjonowaną instytucję płatniczą prosto do sprzedawcy
 <!-- 成本标签: 钱=0 时间=中 毅力=否 收益=大 口径=自由 -->

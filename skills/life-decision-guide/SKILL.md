@@ -3,7 +3,7 @@ name: life-decision-guide
 description: Odpowiadaj na konkretne życiowe dylematy, korzystając z polskiej treści 《高性价比人生指南》 w repozytorium github.com/duszekmestre/HowToLiveBetter-PL: czy coś robić, czy warto, co wybrać, co zrobić najpierw w nagłej sytuacji, jakie świadczenie można otrzymać i czy coś jest zgodne z prawem. Najpierw znajdź odpowiednie wpisy, a potem uporządkuj je według kosztu (pieniądze/czas/wytrwałość), skali korzyści i poziomu dowodów A/B/C. Przy każdym wpisie podaj sekcję i numer wpisu. Słowa wyzwalające: czy warto, czy powinienem, czy robić, jak wybrać, pomóż mi zdecydować, czy to jest nielegalne, jakie świadczenia mogę dostać, co zrobić najpierw, opłacalność.
 ---
 
-# Decyzje życiowe: najpierw sprawdź 《高性价比人生指南》
+# Decyzje życiowe: najpierw sprawdź „Przewodnik po życiu o wysokiej opłacalności”
 
 ## Do czego służy ten skill
 
@@ -22,7 +22,7 @@ Książka rozlicza cztery rodzaje korzyści: długość życia, czas i energię,
 
 ## Krok 1: pobierz treść książki
 
-**Lokalnie**: jeśli w bieżącym katalogu lub katalogu nadrzędnym znajdują się `README.md` i `book/01-不要早死.md`, użyj trybu lokalnego i odczytaj pliki bezpośrednio.
+**Lokalnie**: jeśli w bieżącym katalogu lub katalogu nadrzędnym znajdują się `README.md` i `book/01-Unikaj-przedwczesnej-śmierci.md`, użyj trybu lokalnego i odczytaj pliki bezpośrednio.
 
 **Zdalnie**: jeśli ich nie ma, pobierz treść. Cała książka ma 1,3 MB, więc najwygodniej sklonować ją płytko. Potem wszystkie polecenia można wykonywać normalnie:
 
@@ -33,14 +33,14 @@ git clone --depth 1 https://github.com/duszekmestre/HowToLiveBetter-PL.git "${TM
 Jeśli nie możesz użyć git, pobierz plik bezpośrednio (chińskie znaki w nazwie pliku można wpisać bez zmian):
 
 ```bash
-curl -fsSL --compressed "https://raw.githubusercontent.com/duszekmestre/HowToLiveBetter-PL/main/book/02-不要慢慢死.md"
+curl -fsSL --compressed "https://raw.githubusercontent.com/duszekmestre/HowToLiveBetter-PL/main/book/02-Nie-umieraj-powoli.md"
 ```
 
 Jeśli żadna z tych metod nie zadziała, oznacza to, że nie udało się pobrać treści. Powiedz to wprost i nie odtwarzaj zawartości książki z pamięci.
 
 ## Krok 2: znajdź odpowiednie sekcje
 
-Najpierw wybierz od 1 do 3 sekcji. W głównym katalogu repozytorium przeczytaj tabelę „这本书想回答的问题” w `README.md`. Każdy wiersz opisuje pytanie omawiane w jednej sekcji i zawiera nazwę odpowiadającego jej pliku w `book/`. Zmiany liczby sekcji są odzwierciedlane w tej tabeli, więc nie utrzymuj osobnej listy.
+Najpierw wybierz od 1 do 3 sekcji. W głównym katalogu repozytorium przeczytaj tabelę „Na jakie pytania odpowiada ta książka” w `README.md`. Każdy wiersz opisuje pytanie omawiane w jednej sekcji i zawiera nazwę odpowiadającego jej pliku w `book/`. Zmiany liczby sekcji są odzwierciedlane w tej tabeli, więc nie utrzymuj osobnej listy.
 
 Pliki sekcji znajdują się w `book/`. Ich nazwy zawierają numer i tytuł sekcji; pełną listę pokaże też `ls book/`.
 
@@ -51,9 +51,9 @@ Dłuższe teksty znajdują się w `docs/`: kwestie opłacalności małżeństwa,
 Największe pliki sekcji mają 110 KB, więc nie czytaj ich w całości. Wyszukuj słowa kluczowe. Jeśli masz narzędzia typu Grep / Read, użyj ich; jeśli masz tylko powłokę, użyj poleceń:
 
 ```bash
-grep -rn '^### ' book/ | grep -E '关键词1|关键词2'        # 先看有哪些条目标题
-grep -rn -B2 -A8 '关键词' book/08-别把自己搭进去.md        # 正文里搜，带上下文
-sed -n '/^### 16\. /,/^### 17\. /p' book/08-别把自己搭进去.md  # 按条号抽一整条
+grep -rn '^### ' book/ | grep -E 'słowo1|słowo2'        # najpierw sprawdź tytuły wpisów
+grep -rn -B2 -A8 'słowo' book/08-Prawo-i-bezpieczeństwo-majątku.md        # wyszukaj w treści wraz z kontekstem
+sed -n '/^### 16\. /,/^### 17\. /p' book/08-Prawo-i-bezpieczeństwo-majątku.md  # wyodrębnij cały wpis
 ```
 
 **Przeczytaj każdy wyodrębniony wpis w całości**, szczególnie pole „备注” — zawiera informacje o tym, kogo dotyczy wpis, o sporach i wyjątkach. Czytając tylko tytuł, można pominąć ważne warunki.
@@ -61,7 +61,7 @@ sed -n '/^### 16\. /,/^### 17\. /p' book/08-别把自己搭进去.md  # 按条�
 Wpis ma następującą postać:
 
 ```markdown
-### 5. 把家里的食盐换成低钠盐（钾盐）
+### 5. Zastąp domową sól solą o obniżonej zawartości sodu (solą potasową)
 <!-- 成本标签: 钱=少 时间=少 毅力=否 收益=中 口径=死亡率 -->
 - 成本：每袋贵几元
 - 说人话：……死亡的概率低约 12%……
