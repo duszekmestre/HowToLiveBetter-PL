@@ -2,7 +2,7 @@
 
 # 25. Co trzeba załatwić po czyjejś śmierci
 
-口径：金钱。Ta sekcja mówi tylko o tym, jak załatwić formalności i skąd wziąć pieniądze: co zrobić zaraz po śmierci bliskiej osoby, które opłaty mają cennik, z którym można je porównać, jakie pieniądze z kont da się jeszcze odzyskać i jakie sprawy mogą załatwiać najbliżsi krewni. Pierwsze pięć pozycji idzie w kolejności zdarzeń: miejsce zgonu, zaświadczenie o zgonie, zwłoki i kremacja, co robić przy wątpliwościach co do przyczyny śmierci, wyrejestrowanie hukou. O tym, co starszy człowiek powinien zorganizować za życia (opiekun ustanowiony z własnej woli, testament, konta), patrz sekcja 17. Trzy świadczenia przy śmierci w wyniku wypadku przy pracy – sekcja 19.
+Zakres: pieniądze. Ta sekcja mówi tylko o tym, jak załatwić formalności i skąd wziąć pieniądze: co zrobić zaraz po śmierci bliskiej osoby, które opłaty mają cennik, z którym można je porównać, jakie pieniądze z kont da się jeszcze odzyskać i jakie sprawy mogą załatwiać najbliżsi krewni. Pierwsze pięć pozycji idzie w kolejności zdarzeń: miejsce zgonu, zaświadczenie o zgonie, zwłoki i kremacja, co robić przy wątpliwościach co do przyczyny śmierci, wyrejestrowanie hukou. O tym, co starszy człowiek powinien zorganizować za życia (opiekun ustanowiony z własnej woli, testament, konta), patrz sekcja 17. Trzy świadczenia przy śmierci w wyniku wypadku przy pracy – sekcja 19.
 
 Część o pochówkach opiera się na nowym Rozporządzeniu o zarządzaniu pogrzebami i pochówkami (殡葬管理条例), obowiązującym od 30 marca 2026 r. O tym, jak liczy się zasiłek pogrzebowy i zasiłek dla rodziny zmarłego z ubezpieczenia emerytalnego, patrz pozycja 9 (saldo funduszu mieszkaniowego, świadczenia z ubezpieczeń społecznych).
 
