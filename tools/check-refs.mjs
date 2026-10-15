@@ -69,8 +69,8 @@ const nums = s => {
 // 条号那一段的写法：「3」「3、10」「11 到 14」「5 到第 10」
 const SPEC = '[\\d、,\\s]+?(?:(?:到|至|do|–)\\s*第?\\s*\\d+)?';
 const PL_REF_SPEC = '\\d+(?:\\s*(?:,|i)\\s*\\d+)*(?:\\s*(?:do|–|-)\\s*\\d+)?';
-const PL_SECTION_PREFIX = '(?:sekcja|rozdział|rozdz\\.?)';
-const PL_ITEM_PREFIX = '(?:pozycja|poz\\.?|punkt|pkt\\.?)';
+const PL_SECTION_PREFIX = '(?:sekcja|sekcji|rozdział|rozdziału|rozdziale|rozdz\\.?)';
+const PL_ITEM_PREFIX = '(?:pozycja|pozycji|poz\\.?|punkt|punktu|punkcie|pkt\\.?)';
 
 const out = [];
 const problems = [];
