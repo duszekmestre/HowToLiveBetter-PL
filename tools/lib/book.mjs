@@ -32,7 +32,7 @@ export function buildStamp() {
 }
 
 export function stripBackLink(md) {
-  return md.replace(/^\[← 回总目录\]\([^)]*\)\s*\n/, '');
+  return md.replace(/^\[[^\]]+\]\((?:\.\.\/)?README\.md\)\s*\n/, '');
 }
 
 // README 里从某个标题到下一个标题之间的一段

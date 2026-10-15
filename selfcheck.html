@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="pl">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>生活自查 · 高性价比人生指南</title>
-<meta name="description" content="回答一组是否题，看看书里哪些事你还没做到：哪一块漏得最多、先做哪几件、哪些一次办完就行。每条单独给出证据和出处，不汇总成「少活几年」。">
+<title>Samokontrola życia · Poradnik życia o wysokiej opłacalności (高性价比人生指南)</title>
+<meta name="description" content="Odpowiedz na zestaw pytań tak/nie i sprawdź, czego z książki jeszcze nie robisz: w którym obszarze brakuje najwięcej, od czego zacząć i co wystarczy załatwić jednorazowo. Każdy punkt ma własne dowody i źródło; nie sumujemy ich do „ile lat życia tracisz”.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233451b2'/%3E%3Cpath d='M17 33l10 11 20-24' fill='none' stroke='white' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <script>(function(){try{var s=localStorage.getItem('theme');var d=s?s==='dark':matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark')}catch(e){}})();</script>
 <style>
@@ -119,37 +119,37 @@ html.dark .btn{color:#1b1b1f}
 </head>
 <body>
 <header class="nav">
-  <a class="title" href="./">高性价比人生指南</a>
+  <a class="title" href="./">Poradnik życia o wysokiej opłacalności (高性价比人生指南)</a>
   <span class="sp"></span>
-  <a class="back" href="./">回检索页</a>
+  <a class="back" href="./">Wróć do wyszukiwarki</a>
 </header>
 <main class="wrap">
-  <div id="status">正在读取正文 …</div>
+  <div id="status">Wczytywanie treści …</div>
 
   <section id="ask" hidden>
-    <h1>生活自查</h1>
-    <p class="lead">回答下面的问题，看看书里哪些事你还没做到。结果会告诉你哪一块漏得最多、先做哪几件、哪些一次办完就行。每条单独给出证据和出处，不汇总成一个分数。</p>
+    <h1>Samokontrola życia</h1>
+    <p class="lead">Odpowiedz na poniższe pytania i sprawdź, czego z książki jeszcze nie robisz. Wynik pokaże, w którym obszarze brakuje najwięcej, od czego zacząć i co wystarczy załatwić jednorazowo. Każdy punkt ma własne dowody i źródło; nie sumujemy ich do jednego wyniku.</p>
     <div id="qs"></div>
     <div class="bar">
       <span class="prog" id="prog"></span>
-      <button class="btn ghost" id="reset" type="button">清空</button>
-      <button class="btn" id="go" type="button">看结果</button>
+      <button class="btn ghost" id="reset" type="button">Wyczyść</button>
+      <button class="btn" id="go" type="button">Pokaż wynik</button>
     </div>
   </section>
 
   <section id="out" hidden>
-    <h1>自查结果</h1>
+    <h1>Wynik samokontroli</h1>
     <p class="verdict" id="verdict"></p>
     <div class="sum" id="sum"></div>
-    <h2>哪一块漏得最多<small>按做到的比例从低到高排</small></h2>
+    <h2>W którym obszarze brakuje najwięcej<small>od najniższego do najwyższego odsetka zrobionych rzeczy</small></h2>
     <div id="bars"></div>
     <div id="todo"></div>
-    <div class="note"><b>为什么不算「少活几年」：</b>每条的数字来自不同研究、不同人群，而且抽烟、不运动、睡得差这些习惯常常一起出现。把各条的风险乘到一起会重复计算，算出来的年数会偏大，偏多少也说不清。所以每条只给它自己那份证据。</div>
-    <h2 id="done-h">已经做到的</h2>
+    <div class="note"><b>Dlaczego nie liczymy „ile lat życia tracisz”:</b> liczby przy poszczególnych punktach pochodzą z różnych badań i różnych grup ludzi, a palenie, brak ruchu i słaby sen często występują razem. Pomnożenie ryzyk liczyłoby to samo kilka razy, więc wynik byłby zawyżony, a o ile — trudno powiedzieć. Dlatego każdy punkt pokazuje tylko własne dowody.</div>
+    <h2 id="done-h">Już zrobione</h2>
     <ul class="done-list" id="done"></ul>
     <div class="bar">
-      <span class="prog">答案只存在你这台设备的浏览器里。</span>
-      <button class="btn ghost" id="back" type="button">改答案</button>
+      <span class="prog">Odpowiedzi są zapisywane tylko w przeglądarce na tym urządzeniu.</span>
+      <button class="btn ghost" id="back" type="button">Zmień odpowiedzi</button>
     </div>
   </section>
 </main>
@@ -159,113 +159,119 @@ html.dark .btn{color:#1b1b1f}
    找不到就在控制台报错并跳过这题。
    when(p) 按基本情况决定这题问不问；also 是没做到时顺带列出的相关条目。 */
 const PROFILE = [
-  {id:'age', text:'你的年龄', opts:[['<30','30 岁以下'],['30','30–44'],['45','45–59'],['60','60 岁以上']]},
-  {id:'sex', text:'你的性别', opts:[['m','男'],['f','女']]},
-  {id:'kid', text:'家里有 4 岁以下的孩子吗', opts:[['y','有'],['n','没有']]},
+  {id:'age', text:'Twój wiek', opts:[['<30','poniżej 30 lat'],['30','30–44'],['45','45–59'],['60','60 lat i więcej']]},
+  {id:'sex', text:'Twoja płeć', opts:[['m','mężczyzna'],['f','kobieta']]},
+  {id:'kid', text:'Czy w domu jest dziecko poniżej 4 lat', opts:[['y','Tak'],['n','Nie']]},
 ];
 const ageAtLeast = (p, a) => ({'<30':20,'30':30,'45':45,'60':60})[p.age] >= a;
 const GROUPS = [
-  {name:'烟、酒和槟榔', mod:'身体', qs:[
-    {sec:2, key:'戒烟，越早越好', text:'不抽烟，或者已经戒了', also:[{sec:2, key:'先去拿药'},{sec:2, key:'戒烟门诊'}]},
-    {sec:2, key:'少喝或不喝酒', text:'不喝酒，或者很少喝'},
-    {sec:2, key:'不嚼槟榔', text:'不嚼槟榔'},
+  {name:'Papierosy, alkohol i betel', mod:'身体', qs:[
+    {sec:2, key:'戒烟，越早越好', text:'Nie palisz albo już rzuciłeś(-aś) palenie', also:[{sec:2, key:'先去拿药'},{sec:2, key:'戒烟门诊'}]},
+    {sec:2, key:'少喝或不喝酒', text:'Nie pijesz alkoholu albo pijesz bardzo rzadko'},
+    {sec:2, key:'不嚼槟榔', text:'Nie żujesz betelu (槟榔)'},
   ]},
-  {name:'吃喝', mod:'身体', qs:[
-    {sec:2, key:'含糖饮料', text:'基本不喝奶茶、可乐、果汁这类含糖饮料'},
-    {sec:2, key:'加工肉', text:'很少吃火腿、香肠、培根、午餐肉'},
-    {sec:2, key:'全谷物', text:'主食里有一部分是糙米、燕麦、全麦这类全谷物'},
-    {sec:2, key:'5 份', text:'每天吃够一斤左右的水果和蔬菜'},
-    {sec:2, key:'坚果', text:'每天吃一小把坚果'},
-    {sec:2, key:'低钠盐', text:'家里做饭用低钠盐'},
-    {sec:2, key:'滚烫', text:'热茶热汤放一放再喝，不喝滚烫的'},
-    {sec:2, key:'抽油烟机', text:'炒菜时从开火到做完一直开着抽油烟机', hint:'不做饭可以跳过'},
+  {name:'Jedzenie i picie', mod:'身体', qs:[
+    {sec:2, key:'含糖饮料', text:'Prawie nie pijesz napojów słodzonych: herbaty mlecznej z bąbelkami, coli, soków'},
+    {sec:2, key:'加工肉', text:'Rzadko jesz szynkę, kiełbasę, bekon i mięso konserwowe (typu luncheon meat)'},
+    {sec:2, key:'全谷物', text:'Część podstawowych posiłków to produkty pełnoziarniste: brązowy ryż, owsianka, pełne ziarno pszenicy'},
+    {sec:2, key:'5 份', text:'Codziennie jesz około pół kilograma owoców i warzyw'},
+    {sec:2, key:'坚果', text:'Codziennie jesz małą garść orzechów'},
+    {sec:2, key:'低钠盐', text:'W domu gotujesz na soli o obniżonej zawartości sodu'},
+    {sec:2, key:'滚烫', text:'Gorącą herbatę i zupę zostawiasz do ostygnięcia i nie pijesz ich wrzących'},
+    {sec:2, key:'抽油烟机', text:'Podczas smażenia włączasz okap od zapalenia ognia do końca gotowania', hint:'Jeśli nie gotujesz, pomiń'},
   ]},
-  {name:'动、睡和晒太阳', mod:'身体', qs:[
-    {sec:2, key:'7000', text:'每天走到 7000 步左右，或者每周快走累计 150 分钟以上'},
-    {sec:2, key:'力量训练', text:'每周做点力量训练（俯卧撑、深蹲、器械都算）'},
-    {sec:2, key:'别连着坐太久', text:'不会连着坐好几个小时不起身'},
-    {sec:2, key:'每晚睡 7', text:'每晚睡 7 小时左右，作息基本固定'},
-    {sec:2, key:'晒晒太阳', text:'白天会出门见见太阳，不是整天待在屋里'},
-    {sec:2, key:'BMI', text:'体重在正常范围（BMI 20–25）', hint:'BMI = 体重(公斤) ÷ 身高(米)²'},
-    {sec:2, key:'认真刷牙', text:'每天认真刷牙、清一次牙缝，缺了牙会去补'},
-    {sec:1, key:'平衡和腿部力量', text:'练过平衡和腿部力量，浴室楼梯装了扶手防滑', when:p => ageAtLeast(p,60)},
+  {name:'Ruch, sen i słońce', mod:'身体', qs:[
+    {sec:2, key:'7000', text:'Codziennie robisz około 7000 kroków albo w tygodniu szybko chodzisz łącznie ponad 150 minut'},
+    {sec:2, key:'力量训练', text:'Co tydzień robisz trochę ćwiczeń siłowych (pompki, przysiady i sprzęt — wszystko się liczy)'},
+    {sec:2, key:'别连着坐太久', text:'Nie siedzisz kilku godzin z rzędu bez wstawania'},
+    {sec:2, key:'每晚睡 7', text:'Śpisz około 7 godzin na dobę i masz mniej więcej stałe pory snu'},
+    {sec:2, key:'晒晒太阳', text:'W dzień wychodzisz na słońce i nie siedzisz cały dzień w domu'},
+    {sec:2, key:'BMI', text:'Masz prawidłową masę ciała (BMI 20–25)', hint:'BMI = masa ciała (kg) ÷ wzrost (m)²'},
+    {sec:2, key:'认真刷牙', text:'Codziennie starannie myjesz zęby, raz dziennie czyścisz przestrzenie międzyzębowe, a brakujące zęby uzupełniasz'},
+    {sec:1, key:'平衡和腿部力量', text:'Ćwiczysz równowagę i siłę nóg, a w łazience i na schodach są poręcze i środki przeciwpoślizgowe', when:p => ageAtLeast(p,60)},
   ]},
-  {name:'出门和家里的安全', mod:'身体', qs:[
-    {sec:1, key:'系安全带', text:'坐车时前排后排都系安全带'},
-    {sec:1, key:'不酒驾', text:'开车不超速、不酒驾', hint:'不开车可以跳过'},
-    {sec:1, key:'戴头盔', text:'骑电动车、摩托车戴头盔并扣好', hint:'不骑可以跳过'},
-    {sec:1, key:'电动自行车不推进楼道', text:'电动车不推进楼道，不在家里充电', hint:'没有电动车可以跳过'},
-    {sec:1, key:'烟雾报警器', text:'家里装了烟雾报警器'},
-    {sec:1, key:'燃气软管', text:'燃气软管和灶具到期换过，没自己改过管道', hint:'家里不用燃气可以跳过'},
-    {sec:1, key:'野生蘑菇', text:'不采、不买、不吃野生蘑菇'},
-    {sec:1, key:'安全套', text:'和不固定的伴侣发生关系，全程用安全套', hint:'没有这种情况可以跳过'},
-    {sec:1, key:'安全座椅', text:'孩子坐车用安全座椅，不抱在怀里', when:p => p.kid === 'y'},
-    {sec:1, key:'限位器', text:'窗户和阳台装了限位器或护栏', when:p => p.kid === 'y'},
+  {name:'Bezpieczeństwo w drodze i w domu', mod:'身体', qs:[
+    {sec:1, key:'系安全带', text:'W samochodzie zapinasz pasy zarówno z przodu, jak i z tyłu'},
+    {sec:1, key:'不酒驾', text:'Nie przekraczasz prędkości i nie jeździsz po alkoholu', hint:'Jeśli nie prowadzisz, pomiń'},
+    {sec:1, key:'戴头盔', text:'Jeżdżąc skuterem elektrycznym lub motocyklem, nosisz kask i zapinasz go', hint:'Jeśli nie jeździsz, pomiń'},
+    {sec:1, key:'电动自行车不推进楼道', text:'Nie wprowadzasz roweru elektrycznego do klatki schodowej i nie ładujesz go w domu', hint:'Jeśli nie masz roweru elektrycznego, pomiń'},
+    {sec:1, key:'烟雾报警器', text:'W domu masz czujnik dymu'},
+    {sec:1, key:'燃气软管', text:'Wąż gazowy i kuchenkę wymieniasz po upływie terminu przydatności i nie przerabiałeś(-aś) instalacji na własną rękę', hint:'Jeśli w domu nie ma gazu, pomiń'},
+    {sec:1, key:'野生蘑菇', text:'Nie zbierasz, nie kupujesz i nie jesz dzikich grzybów'},
+    {sec:1, key:'安全套', text:'Przy kontaktach seksualnych z niestałymi partnerami cały czas używasz prezerwatywy', hint:'Jeśli to ciebie nie dotyczy, pomiń'},
+    {sec:1, key:'安全座椅', text:'Dziecko jeździ w foteliku samochodowym i nie jest trzymane na rękach', when:p => p.kid === 'y'},
+    {sec:1, key:'限位器', text:'Na oknach i balkonie są ograniczniki otwarcia lub barierki', when:p => p.kid === 'y'},
   ]},
-  {name:'吃药', mod:'身体', qs:[
-    {sec:34, key:'对乙酰氨基酚', text:'同时吃两种感冒药或止痛药之前，会先看成分表'},
-    {sec:34, key:'普通感冒别找医生要抗生素', text:'普通感冒不找医生要抗生素'},
-    {sec:34, key:'头孢、甲硝唑', text:'吃头孢、甲硝唑期间和停药后一周不喝酒'},
-    {sec:2, key:'有高血压、高血脂', text:'有高血压、高血脂的，在按医嘱规律吃药', hint:'没有这些病可以跳过'},
+  {name:'Leki', mod:'身体', qs:[
+    {sec:34, key:'对乙酰氨基酚', text:'Zanim weźmiesz naraz dwa leki na przeziębienie lub przeciwbólowe, sprawdzasz skład'},
+    {sec:34, key:'普通感冒别找医生要抗生素', text:'Przy zwykłym przeziębieniu nie prosisz lekarza o antybiotyk'},
+    {sec:34, key:'头孢、甲硝唑', text:'Podczas przyjmowania cefalosporyn i metronidazolu oraz przez tydzień po odstawieniu nie pijesz alkoholu'},
+    {sec:2, key:'有高血压、高血脂', text:'Jeśli masz nadciśnienie lub podwyższone lipidy, regularnie bierzesz leki zgodnie z zaleceniem lekarza', hint:'Jeśli nie masz tych chorób, pomiń'},
   ]},
-  {name:'检查和疫苗', mod:'身体', qs:[
-    {sec:1, key:'量血压', text:'最近一年量过血压，高了在吃药控制'},
-    {sec:1, key:'空腹血糖', text:'查过空腹血糖', when:p => ageAtLeast(p,30)},
-    {sec:1, key:'乙肝两对半', text:'查过乙肝两对半，没抗体的打了疫苗'},
-    {sec:1, key:'幽门螺杆菌', text:'查过幽门螺杆菌'},
-    {sec:1, key:'HPV 疫苗', text:'打过 HPV 疫苗', when:p => p.sex === 'f'},
-    {sec:1, key:'宫颈癌筛查', text:'做过宫颈癌筛查', when:p => p.sex === 'f' && ageAtLeast(p,30)},
-    {sec:1, key:'乳腺癌筛查', text:'近两年做过乳腺钼靶', when:p => p.sex === 'f' && ageAtLeast(p,45)},
-    {sec:1, key:'结直肠癌筛查', text:'做过结直肠癌筛查（大便潜血或肠镜）', when:p => ageAtLeast(p,45)},
-    {sec:1, key:'流感疫苗', text:'每年打流感疫苗', when:p => ageAtLeast(p,60)},
-    {sec:1, key:'带状疱疹疫苗', text:'打过带状疱疹疫苗', when:p => ageAtLeast(p,60)},
-    {sec:1, key:'肺炎球菌疫苗', text:'打过肺炎球菌疫苗', when:p => ageAtLeast(p,60)},
-    {sec:1, key:'骨密度', text:'做过骨密度检查', when:p => p.sex === 'f' && ageAtLeast(p,60)},
+  {name:'Badania i szczepienia', mod:'身体', qs:[
+    {sec:1, key:'量血压', text:'W ostatnim roku mierzyłeś(-aś) ciśnienie, a jeśli było za wysokie, bierzesz leki'},
+    {sec:1, key:'空腹血糖', text:'Badałeś(-aś) glukozę na czczo', when:p => ageAtLeast(p,30)},
+    {sec:1, key:'乙肝两对半', text:'Zrobiłeś(-aś) badanie markerów HBV (乙肝两对半), a jeśli nie masz przeciwciał, zaszczepiłeś(-aś) się'},
+    {sec:1, key:'幽门螺杆菌', text:'Badałeś(-aś) się na Helicobacter pylori'},
+    {sec:1, key:'HPV 疫苗', text:'Zaszczepiłaś się przeciw HPV', when:p => p.sex === 'f'},
+    {sec:1, key:'宫颈癌筛查', text:'Zrobiłaś badanie przesiewowe w kierunku raka szyjki macicy', when:p => p.sex === 'f' && ageAtLeast(p,30)},
+    {sec:1, key:'乳腺癌筛查', text:'W ostatnich dwóch latach zrobiłaś mammografię', when:p => p.sex === 'f' && ageAtLeast(p,45)},
+    {sec:1, key:'结直肠癌筛查', text:'Zrobiłeś(-aś) badanie przesiewowe w kierunku raka jelita grubego (krew utajona w kale lub kolonoskopia)', when:p => ageAtLeast(p,45)},
+    {sec:1, key:'流感疫苗', text:'Co roku szczepisz się przeciw grypie', when:p => ageAtLeast(p,60)},
+    {sec:1, key:'带状疱疹疫苗', text:'Zaszczepiłeś(-aś) się przeciw półpaścowi', when:p => ageAtLeast(p,60)},
+    {sec:1, key:'肺炎球菌疫苗', text:'Zaszczepiłeś(-aś) się przeciw pneumokokom', when:p => ageAtLeast(p,60)},
+    {sec:1, key:'骨密度', text:'Zrobiłaś badanie gęstości kości', when:p => p.sex === 'f' && ageAtLeast(p,60)},
   ]},
-  {name:'急救常识', mod:'急救常识', qs:[
-    {sec:13, key:'有人倒地没呼吸', text:'看到有人倒地没呼吸，知道要立刻用力按压胸口，并让旁人找 AED'},
-    {sec:13, key:'突然嘴歪', text:'知道突然嘴歪、一侧胳膊没劲要直接打 120，不自己开车去'},
-    {sec:13, key:'胸口压着疼', text:'知道胸口压着疼超过 15 分钟不缓解要打 120'},
-    {sec:13, key:'有人噎住', text:'会给噎住的人做拍背加腹部冲击'},
-    {sec:13, key:'烫伤后', text:'知道烫伤先用凉的流水冲 20 分钟，不抹牙膏酱油'},
-    {sec:13, key:'被狗、猫咬伤', text:'被猫狗咬伤或抓破皮，会先冲洗再当天去打疫苗'},
-    {sec:13, key:'误服', text:'知道误服清洁剂、农药不催吐，带上瓶子去医院'},
-    {sec:13, key:'火灾时', text:'知道火灾时贴地走、先摸门、走楼梯不坐电梯'},
-    {sec:13, key:'婴儿噎住', text:'会给不满 1 岁的婴儿做拍背加按胸', when:p => p.kid === 'y'},
+  {name:'Pierwsza pomoc', mod:'急救常识', qs:[
+    {sec:13, key:'有人倒地没呼吸', text:'Wiesz, że gdy ktoś upadł i nie oddycha, trzeba natychmiast mocno uciskać klatkę piersiową i poprosić kogoś o AED'},
+    {sec:13, key:'突然嘴歪', text:'Wiesz, że przy nagle opadniętym kąciku ust i braku siły w jednej ręce trzeba od razu dzwonić pod 120 i nie jechać samemu samochodem'},
+    {sec:13, key:'胸口压着疼', text:'Wiesz, że gdy ucisk w klatce piersiowej trwa ponad 15 minut i nie mija, trzeba dzwonić pod 120'},
+    {sec:13, key:'有人噎住', text:'Umiesz pomóc osobie, która się dławi: uderzenia w plecy i uciśnięcia brzucha'},
+    {sec:13, key:'烫伤后', text:'Wiesz, że oparzenie najpierw chłodzi się 20 minut pod zimną bieżącą wodą i nie smaruje pastą do zębów ani sosem sojowym'},
+    {sec:13, key:'被狗、猫咬伤', text:'Po ugryzieniu lub zadrapaniu przez kota albo psa najpierw przemywasz ranę, a tego samego dnia idziesz na szczepienie'},
+    {sec:13, key:'误服', text:'Wiesz, że po połknięciu środka czystości lub pestycydu nie wywołuje się wymiotów, tylko jedzie do szpitala z opakowaniem'},
+    {sec:13, key:'火灾时', text:'Wiesz, że podczas pożaru trzeba poruszać się nisko przy ziemi, najpierw sprawdzić drzwi dłonią i uciekać schodami, a nie windą'},
+    {sec:13, key:'婴儿噎住', text:'Umiesz pomóc dławiącemu się niemowlęciu poniżej 1. roku życia: uderzenia w plecy i uciśnięcia klatki piersiowej', when:p => p.kid === 'y'},
   ]},
-  {name:'精力和情绪', mod:'精力', qs:[
-    {sec:3, key:'关掉非必要通知', text:'关掉了手机上不必要的通知，工作时手机放在看不到的地方'},
-    {sec:3, key:'固定起床时间', text:'周末也基本按平时的时间起床'},
-    {sec:3, key:'下午两点以后', text:'下午两点以后不喝咖啡、浓茶'},
-    {sec:3, key:'到点就睡', text:'不会为了打游戏、刷短视频熬夜'},
-    {sec:3, key:'睡前一小时', text:'睡前一小时不看手机'},
-    {sec:3, key:'别人过得怎么样', text:'不会每天刷同龄人的动态'},
-    {sec:3, key:'49 小时', text:'每周工作时间基本不超过 50 小时', hint:'没在上班可以跳过'},
-    {sec:3, key:'学会拒绝', text:'不想接的请求能说出「不」'},
-    {sec:22, key:'定期和人见面', text:'定期和朋友家人见面，不是心情差了才找人'},
+  {name:'Energia i emocje', mod:'精力', qs:[
+    {sec:3, key:'关掉非必要通知', text:'Wyłączyłeś(-aś) zbędne powiadomienia w telefonie, a w pracy trzymasz telefon poza zasięgiem wzroku'},
+    {sec:3, key:'固定起床时间', text:'W weekendy wstajesz mniej więcej o tej samej porze co w tygodniu'},
+    {sec:3, key:'下午两点以后', text:'Po 14:00 nie pijesz kawy ani mocnej herbaty'},
+    {sec:3, key:'到点就睡', text:'Nie zarywasz nocy dla gier ani krótkich filmików'},
+    {sec:3, key:'睡前一小时', text:'Na godzinę przed snem nie patrzysz w telefon'},
+    {sec:3, key:'别人过得怎么样', text:'Nie przeglądasz codziennie wpisów rówieśników w mediach społecznościowych'},
+    {sec:3, key:'49 小时', text:'Pracujesz zazwyczaj nie więcej niż 50 godzin tygodniowo', hint:'Jeśli nie pracujesz, pomiń'},
+    {sec:3, key:'学会拒绝', text:'Potrafisz powiedzieć „nie” na prośby, których nie chcesz przyjąć'},
+    {sec:22, key:'定期和人见面', text:'Regularnie spotykasz się z przyjaciółmi i rodziną, a nie tylko wtedy, gdy masz zły nastrój'},
   ]},
-  {name:'钱', mod:'钱', qs:[
-    {sec:5, key:'自动续费', text:'关掉了不用的自动续费'},
-    {sec:5, key:'个税汇算', text:'每年做个税汇算，该填的专项附加扣除都填了', hint:'没有工资收入可以跳过'},
-    {sec:5, key:'最低还款', text:'不用信用卡最低还款，不开消费分期和消费贷'},
-    {sec:5, key:'先存出', text:'存了 3 到 6 个月生活费的应急金，能随时取'},
-    {sec:5, key:'高收益', text:'看到「保本」「高收益」「稳赚」会直接走开'},
-    {sec:5, key:'家庭共济', text:'在医保 App 上办了家庭共济', hint:'没有职工医保可以跳过'},
-    {sec:5, key:'三者险', text:'开车的话，三者险买够了', hint:'没有车可以跳过'},
-    {sec:5, key:'定期寿险', text:'家里有人靠你的收入过日子，你买了定期寿险', hint:'家里没人靠你收入可以跳过'},
-    {sec:5, key:'宽基指数', text:'长期投资的钱放在宽基指数基金，而不是主动基金或个股', hint:'没有投资可以跳过'},
+  {name:'Pieniądze', mod:'钱', qs:[
+    {sec:5, key:'自动续费', text:'Wyłączyłeś(-aś) automatyczne odnawianie nieużywanych subskrypcji'},
+    {sec:5, key:'个税汇算', text:'Co roku robisz roczne rozliczenie podatku dochodowego (个税汇算) i wpisujesz wszystkie przysługujące odliczenia specjalne', hint:'Jeśli nie masz dochodów z pracy, pomiń'},
+    {sec:5, key:'最低还款', text:'Nie spłacasz karty kredytowej minimalną kwotą i nie bierzesz ratalnych ani konsumenckich kredytów'},
+    {sec:5, key:'先存出', text:'Masz fundusz awaryjny na 3–6 miesięcy kosztów życia, dostępny w każdej chwili'},
+    {sec:5, key:'高收益', text:'Na hasła „gwarantowany kapitał”, „wysoki zysk” i „pewny zarobek” (「保本」「高收益」「稳赚」) od razu odpuszczasz'},
+    {sec:5, key:'家庭共济', text:'W aplikacji ubezpieczenia medycznego uruchomiłeś(-aś) rodzinne współdzielenie konta (家庭共济)', hint:'Jeśli nie masz pracowniczego ubezpieczenia medycznego, pomiń'},
+    {sec:5, key:'三者险', text:'Jeśli jeździsz samochodem, masz wystarczająco wysokie ubezpieczenie OC (三者险)', hint:'Jeśli nie masz samochodu, pomiń'},
+    {sec:5, key:'定期寿险', text:'Jeśli ktoś w domu żyje z twoich dochodów, masz terminowe ubezpieczenie na życie', hint:'Jeśli nikt w domu nie żyje z twoich dochodów, pomiń'},
+    {sec:5, key:'宽基指数', text:'Pieniądze na długi termin trzymasz w funduszach indeksowych szerokiego rynku, a nie w funduszach aktywnych czy pojedynczych akcjach', hint:'Jeśli nie inwestujesz, pomiń'},
   ]},
-  {name:'账号与防骗', mod:'账号与防骗', qs:[
-    {sec:14, key:'二次验证', text:'邮箱、支付、社交账号都开了二次验证'},
-    {sec:14, key:'邮箱密码单独', text:'邮箱密码单独一个，没在别的网站用过'},
-    {sec:14, key:'锁屏密码', text:'手机设了锁屏密码，SIM 卡设了 PIN 码'},
-    {sec:8, key:'通讯录里的旧号码', text:'家人视频或电话要你转账，会先挂断，用通讯录里的旧号码打回去核实'},
-    {sec:8, key:'不把银行卡', text:'从不把银行卡、手机卡、支付账号借给别人'},
-    {sec:8, key:'征信报告', text:'查过自己的征信报告'},
-    {sec:8, key:'签字前', text:'签字前会把纸看完，不在空白纸上签'},
+  {name:'Konta i ochrona przed oszustwami', mod:'账号与防骗', qs:[
+    {sec:14, key:'二次验证', text:'Poczta e-mail, płatności i konta społecznościowe mają włączoną weryfikację dwuetapową'},
+    {sec:14, key:'邮箱密码单独', text:'Hasło do poczty e-mail jest unikalne i nie używasz go na innych stronach'},
+    {sec:14, key:'锁屏密码', text:'Telefon ma hasło blokady ekranu, a karta SIM — kod PIN'},
+    {sec:8, key:'通讯录里的旧号码', text:'Gdy „bliski” przez wideo lub telefon prosi o przelew, rozłączasz się i oddzwaniasz na stary numer z książki kontaktów'},
+    {sec:8, key:'不把银行卡', text:'Nigdy nie pożyczasz nikomu karty bankowej, karty SIM ani konta płatniczego'},
+    {sec:8, key:'征信报告', text:'Sprawdziłeś(-aś) swój raport kredytowy (征信报告)'},
+    {sec:8, key:'签字前', text:'Przed podpisaniem czytasz dokument do końca i nie podpisujesz pustych kartek'},
   ]},
 ];
 const MODS = ['身体', '急救常识', '精力', '钱', '账号与防骗'];
+/* 以下只是显示用的标签；上面的中文值是答案存储和条目标签里的机器值，不能改 */
+const MOD_LABEL = {'身体':'Ciało', '急救常识':'Pierwsza pomoc', '精力':'Energia', '钱':'Pieniądze', '账号与防骗':'Konta i oszustwa'};
+const RATIO_LABEL = {'极高':'bardzo wysoka', '高':'wysoka', '一般':'przeciętna'};
+const LEVEL_LABEL = {'大':'duża', '中':'średnia', '小':'mała'};
+const LENS_LABEL = {'死亡率':'śmiertelność', '金钱':'pieniądze', '时间':'czas', '自由':'wolność'};
+const label = (map, v) => map[v] ?? v;
 const modOn = m => ans['mod:' + m] !== 'off';
 
 /* 解析：和 index.html 的 parseReadme 同一套格式，只取这里用得到的字段 */
@@ -318,14 +324,14 @@ function seg(name, opts, cur){
   return `<div class="seg" role="group">` + opts.map(([v, t, cls]) =>
     `<button type="button" data-k="${esc(name)}" data-v="${v}" class="${cls||''}" aria-pressed="${cur === v}">${t}</button>`).join('') + `</div>`;
 }
-const YN = [['y','做到了','yes'],['n','没做到','no'],['s','跳过']];
+const YN = [['y','Zrobione','yes'],['n','Niezrobione','no'],['s','Pomiń']];
 
 function renderAsk(){
   const p = profile();
-  let h = `<h2 style="border-top:0;padding-top:0;margin-top:0">基本情况<small>决定问哪些题</small></h2>`;
+  let h = `<h2 style="border-top:0;padding-top:0;margin-top:0">Podstawowe informacje<small>decydują o tym, jakie pytania zobaczysz</small></h2>`;
   for (const f of PROFILE) h += `<div class="q"><div class="txt">${f.text}</div>${seg('p:'+f.id, f.opts, ans['p:'+f.id])}</div>`;
-  h += `<div class="q"><div class="txt">想查哪几块<small>点一下取消，不查的整块不出题</small></div><div class="mods">`
-    + MODS.map(m => `<button type="button" data-mod="${m}" aria-pressed="${modOn(m)}">${m}</button>`).join('') + `</div></div>`;
+  h += `<div class="q"><div class="txt">Które obszary sprawdzić<small>kliknij, aby odznaczyć; odznaczony obszar nie będzie zawierał pytań</small></div><div class="mods">`
+    + MODS.map(m => `<button type="button" data-mod="${m}" aria-pressed="${modOn(m)}">${MOD_LABEL[m]}</button>`).join('') + `</div></div>`;
   for (const g of GROUPS){
     const qs = g.qs.filter(q => shown(q, p));
     if (!qs.length) continue;
@@ -334,27 +340,27 @@ function renderAsk(){
   }
   document.getElementById('qs').innerHTML = h;
   const qs = activeQs(), n = qs.filter(q => ans[qid(q)]).length;
-  document.getElementById('prog').textContent = profileDone() ? `已答 ${n} / ${qs.length} 题` : '先填基本情况';
+  document.getElementById('prog').textContent = profileDone() ? `Odpowiedzi: ${n} / ${qs.length}` : 'Najpierw uzupełnij podstawowe informacje';
 }
 
 const RANK = {'极高':0,'高':1,'一般':2}, LV = {'大':0,'中':1,'小':2}, GR = {A:0,B:1,C:2};
 function card(e, also){
   const r = {'极高':'r3','高':'r2','一般':'r1'}[e.ratio];
-  const lens = e.lens ? `<span class="badge plain">口径 ${e.lens}</span>` : '';
-  const alsoH = also.length ? `<div class="also">相关做法：` + also.map(a =>
-    `<a href="./#e-${a.sec}-${a.n}">${esc(plain(a.title))}</a>`).join('；') + `</div>` : '';
+  const lens = e.lens ? `<span class="badge plain">Miara: ${label(LENS_LABEL, e.lens)}</span>` : '';
+  const alsoH = also.length ? `<div class="also">Powiązane działania: ` + also.map(a =>
+    `<a href="./#e-${a.sec}-${a.n}">${esc(plain(a.title))}</a>`).join('; ') + `</div>` : '';
   return `<div class="card" id="c-${e.sec}-${e.n}">
-    <div class="h"><b>${esc(plain(e.title))}</b><a href="./#e-${e.sec}-${e.n}">第 ${e.sec} 节第 ${e.n} 条 →</a></div>
+    <div class="h"><b>${esc(plain(e.title))}</b><a href="./#e-${e.sec}-${e.n}">sekcja ${e.sec}, wpis ${e.n} →</a></div>
     ${e.human ? `<div class="human">${esc(plain(e.human))}</div>` : ''}
-    <div class="badges"><span class="badge ${r}">性价比 ${e.ratio}</span><span class="badge ${e.grade}">证据 ${e.grade} 级</span><span class="badge plain">收益 ${e.level}</span>${lens}${e.dispute ? '<span class="badge warn">有争议</span>' : ''}</div>
-    <div class="cost">要花的：${esc(plain(e.cost))}</div>${alsoH}
+    <div class="badges"><span class="badge ${r}">Opłacalność: ${label(RATIO_LABEL, e.ratio)}</span><span class="badge ${e.grade}">Dowody: poziom ${e.grade}</span><span class="badge plain">Korzyść: ${label(LEVEL_LABEL, e.level)}</span>${lens}${e.dispute ? '<span class="badge warn">Sporne</span>' : ''}</div>
+    <div class="cost">Koszt: ${esc(plain(e.cost))}</div>${alsoH}
   </div>`;
 }
 /* 没做到的事按「要不要改习惯」分三堆：成本标签里的毅力一项直接决定 */
 const PILES = [
-  {will:'否', name:'一次办完就行', sub:'做一次或者记住就够，不用改习惯'},
-  {will:'些', name:'要改一个习惯', sub:'要忍一点不适，坚持几周就成了习惯'},
-  {will:'是', name:'要长期坚持', sub:'和惯性长期对着干，最难，挑一件慢慢来'},
+  {will:'否', name:'Wystarczy załatwić jednorazowo', sub:'wystarczy zrobić raz albo o tym pamiętać, bez zmiany nawyków'},
+  {will:'些', name:'Wymaga zmiany jednego nawyku', sub:'trzeba przetrwać pewien dyskomfort, po kilku tygodniach wchodzi w nawyk'},
+  {will:'是', name:'Wymaga długotrwałej wytrwałości', sub:'długa walka z przyzwyczajeniami — najtrudniejsze; wybierz jedną rzecz i działaj powoli'},
 ];
 const WILL = {'否':0,'些':1,'是':2};
 const byValue = (a, b) => RANK[a.entry.ratio] - RANK[b.entry.ratio] || LV[a.entry.level] - LV[b.entry.level]
@@ -370,37 +376,37 @@ function renderOut(){
     return {g, y, t:y + n, pct: y + n ? y / (y + n) : 1};
   }).filter(r => r.t).sort((a, b) => a.pct - b.pct || b.t - a.t);
   document.getElementById('bars').innerHTML = groups.map(r =>
-    `<div class="hbar" title="${esc(r.g.name)}：答了 ${r.t} 题，做到 ${r.y} 项"><span class="nm">${esc(r.g.name)}</span>`
+    `<div class="hbar" title="${esc(r.g.name)}: odpowiedzi ${r.t}, zrobione ${r.y}"><span class="nm">${esc(r.g.name)}</span>`
     + `<span class="tr"><span class="fl" style="display:block;width:${(r.pct * 100).toFixed(0)}%"></span></span>`
     + `<span class="v">${r.y} / ${r.t}</span></div>`).join('');
 
   const easy = no.filter(q => q.entry.will === '否'), free = easy.filter(q => q.entry.money === '0');
   const good = no.filter(q => q.entry.ratio !== '一般'), disp = no.filter(q => q.entry.dispute);
   const weak = groups.find(r => r.t >= 2 && r.pct < 1);
-  let v = `你答了 ${answered} 题，做到 <b>${yes.length}</b> 项，没做到 <b>${no.length}</b> 项。`;
-  if (answered > 0 && !no.length) v += '书里这些事你都做到了。';
-  else if (!answered) v += '你还没有回答任何具体题目，返回答题后查看分析。';
-  if (weak) v += `漏得最多的是「${esc(weak.g.name)}」，${weak.t} 项里做到 ${weak.y} 项。`;
-  if (easy.length) v += `没做到的里有 <b>${easy.length}</b> 项一次办完就行，不用改习惯` + (free.length ? `，其中 ${free.length} 项不花钱。` : '。');
-  if (disp.length) v += `有 ${disp.length} 项证据有争议，先看原条目的备注再决定。`;
+  let v = `Liczba odpowiedzi: ${answered}. Zrobione: <b>${yes.length}</b>, niezrobione: <b>${no.length}</b>. `;
+  if (answered > 0 && !no.length) v += 'Wszystko, o co pytamy, masz już zrobione. ';
+  else if (!answered) v += 'Nie udzielono jeszcze odpowiedzi na żadne pytanie. Wróć do pytań, aby zobaczyć analizę. ';
+  if (weak) v += `Najwięcej braków jest w obszarze „${esc(weak.g.name)}”: zrobione ${weak.y} z ${weak.t}. `;
+  if (easy.length) v += `Wśród niezrobionych rzeczy <b>${easy.length}</b> wystarczy załatwić jednorazowo, bez zmiany nawyków` + (free.length ? `, z czego ${free.length} nie wymaga wydawania pieniędzy. ` : '. ');
+  if (disp.length) v += `Liczba wpisów ze spornymi dowodami: ${disp.length}. Zanim zdecydujesz, przeczytaj uwagi w oryginalnym wpisie.`;
   document.getElementById('verdict').innerHTML = v;
 
   document.getElementById('sum').innerHTML =
-    `<div class="tile"><b>${answered ? Math.round(yes.length / answered * 100) : 0}%</b><span>答过的题里做到的比例</span></div>` +
-    `<div class="tile"><b>${no.length}</b><span>还没做到</span></div>` +
-    `<div class="tile r3"><b>${good.length}</b><span>其中性价比高或极高</span></div>` +
-    `<div class="tile r2"><b>${easy.length}</b><span>其中一次办完就行</span></div>`;
+    `<div class="tile"><b>${answered ? Math.round(yes.length / answered * 100) : 0}%</b><span>odsetek zrobionych rzeczy wśród pytań z odpowiedzią</span></div>` +
+    `<div class="tile"><b>${no.length}</b><span>jeszcze niezrobione</span></div>` +
+    `<div class="tile r3"><b>${good.length}</b><span>w tym o wysokiej lub bardzo wysokiej opłacalności</span></div>` +
+    `<div class="tile r2"><b>${easy.length}</b><span>w tym do załatwienia jednorazowo</span></div>`;
 
   // 先做这三件：性价比最高的排前；同档里先挑不用改习惯的
   const top = no.slice(0, 3);
   const alsoOf = q => (q.also || []).map(a => find(a.sec, a.key)).filter(Boolean);
   let h = '';
-  if (top.length) h += `<h2>先做这${top.length === 3 ? '三' : top.length === 2 ? '两' : '一'}件<small>没做到的里性价比最高的</small></h2><ol class="top3">`
-    + top.map(q => `<li><a href="#c-${q.entry.sec}-${q.entry.n}">${esc(plain(q.entry.title))}</a> <span class="why">性价比${q.entry.ratio}，证据 ${q.entry.grade} 级，${PILES.find(p => p.will === q.entry.will)?.name ?? ''}</span></li>`).join('') + '</ol>';
+  if (top.length) h += `<h2>Zacznij od ${top.length === 3 ? 'tych trzech rzeczy' : top.length === 2 ? 'tych dwóch rzeczy' : 'tej jednej rzeczy'}<small>niezrobione rzeczy o najwyższej opłacalności</small></h2><ol class="top3">`
+    + top.map(q => `<li><a href="#c-${q.entry.sec}-${q.entry.n}">${esc(plain(q.entry.title))}</a> <span class="why">opłacalność: ${label(RATIO_LABEL, q.entry.ratio)}, dowody: poziom ${q.entry.grade}, ${(PILES.find(p => p.will === q.entry.will)?.name ?? '').toLowerCase()}</span></li>`).join('') + '</ol>';
   for (const p of PILES){
     const list = no.filter(q => q.entry.will === p.will);
     if (!list.length) continue;
-    h += `<h2>${p.name}（${list.length} 项）<small>${p.sub}</small></h2>` + list.map(q => card(q.entry, alsoOf(q))).join('');
+    h += `<h2>${p.name} (${list.length})<small>${p.sub}</small></h2>` + list.map(q => card(q.entry, alsoOf(q))).join('');
   }
   document.getElementById('todo').innerHTML = h;
   document.getElementById('done').innerHTML = yes.map(q =>
@@ -422,7 +428,7 @@ document.getElementById('qs').addEventListener('click', ev => {
   save(); renderAsk();
 });
 document.getElementById('go').addEventListener('click', () => {
-  if (!profileDone()) { document.getElementById('prog').textContent = '先把基本情况三题填上'; return; }
+  if (!profileDone()) { document.getElementById('prog').textContent = 'Najpierw odpowiedz na trzy pytania o podstawowe informacje'; return; }
   renderOut(); show('out');
 });
 document.getElementById('back').addEventListener('click', () => show('ask'));
@@ -442,8 +448,8 @@ document.getElementById('reset').addEventListener('click', () => { ans = {}; sav
     renderAsk(); show('ask');
   } catch (err) {
     status.textContent = location.protocol === 'file:'
-      ? '这个页面要通过 http 打开才能读取正文。'
-      : `读取正文失败：${err.message}`;
+      ? 'Tę stronę trzeba otworzyć przez http, aby wczytać treść.'
+      : `Nie udało się wczytać treści: ${err.message}`;
   }
 })();
 </script>
