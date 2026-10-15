@@ -1,17 +1,17 @@
 <div align="center">
 
-<img src="og.png" alt="高性价比人生指南 —— 用最少的钱、时间和精力，换回最多的寿命、金钱和人身自由" width="820">
+<img src="og.png" alt="Przewodnik po życiu o wysokiej relacji korzyści do kosztów — jak najmniejszym kosztem pieniędzy, czasu i energii zyskać jak najwięcej życia, pieniędzy i wolności osobistej" width="820">
 
-# 高性价比人生指南
+# Przewodnik po życiu o wysokiej relacji korzyści do kosztów
 
-讲怎么活得久、怎么少生病，出了意外怎么救。讲怎么少花冤枉钱，哪些事会让人被骗、摊上官司。讲没工作没钱时能去领什么，开店、开公司、做网站要办什么手续。也讲恋爱结婚生孩子、出国和学手艺。法律、医保、社保这些制度上的内容，按中国大陆的现行规定写。<br>
-765 条建议，每条写明花掉什么、换回什么、证据有多硬，来源只引期刊论文和官方文件，少数官方不公开的案件引署名的原创新闻报道并附网页存档。
+Dowiesz się, jak żyć dłużej i rzadziej chorować, a także jak pomagać w nagłych wypadkach. Książka podpowiada, jak nie przepłacać i jak unikać oszustw oraz kłopotów z prawem. Wyjaśnia, jakie świadczenia można uzyskać po utracie pracy lub pieniędzy oraz jakie formalności wiążą się z prowadzeniem sklepu, firmy czy strony internetowej. Porusza też tematy związków, małżeństwa, dzieci, wyjazdów za granicę i nauki zawodu. Informacje o prawie, ubezpieczeniu zdrowotnym i społecznym opierają się na aktualnych przepisach Chin kontynentalnych.<br>
+765 zaleceń. Przy każdym podano koszty, możliwe korzyści i siłę dowodów. Źródła to wyłącznie artykuły naukowe i dokumenty urzędowe. W kilku sprawach nieujawnionych oficjalnie wykorzystano podpisane, oryginalne materiały dziennikarskie z archiwalnymi kopiami stron.
 
-不用全做：这是一份备选单，不是任务清单——挑走一两条就算数，作者自己也没做到其中大部分。
+Nie musisz robić wszystkiego. To lista możliwości, a nie lista zadań. Wybierz jedną lub dwie rzeczy. Autor sam nie wdrożył większości zaleceń.
 
-书里的内容可能过时，也可能有错。不少政策各地执行不一样。真去办事、看病、打官司时，以当地部门、医生和律师的说法为准。发现写错了，欢迎[提 issue](https://github.com/eternity4719/HowToLiveBetter/issues)。
+Informacje w książce mogą się zdezaktualizować lub zawierać błędy. Wiele zasad jest różnie stosowanych w poszczególnych miejscach. Załatwiając sprawy urzędowe, lecząc się lub prowadząc sprawę sądową, kieruj się informacjami od właściwych lokalnych urzędów, lekarzy i prawników. Jeśli zauważysz błąd, [zgłoś problem](https://github.com/eternity4719/HowToLiveBetter/issues).
 
-**本项目从未发行、也不会发行任何代币或数字资产。** 用本项目名字发的币都和本项目无关，作者不领取、不认领任何相关收益。看到这类币请当作骗局，别买，见[第 5 节第 45 条（别买虚拟货币）](book/05-不要浪费钱.md)。
+**Ten projekt nigdy nie wyemitował i nie wyemituje żadnych tokenów ani aktywów cyfrowych.** Żadne tokeny wydane pod nazwą projektu nie mają z nim związku. Autor nie otrzymuje ani nie rości sobie prawa do żadnych związanych z nimi zysków. Traktuj takie tokeny jak oszustwo i ich nie kupuj. Zob. [sekcja 5, punkt 45 (nie kupuj kryptowalut)](book/05-不要浪费钱.md).
 
 [![在线检索](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%A3%80%E7%B4%A2-%E7%82%B9%E8%BF%99%E9%87%8C%E6%89%93%E5%BC%80-3451b2?style=flat-square)](https://eternity4719.github.io/HowToLiveBetter/)
 [![条目](https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-765%20%E6%9D%A1-18794e?style=flat-square)](#目录)
@@ -20,53 +20,53 @@
 [![许可](https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-CC%20BY%204.0-565a5f?style=flat-square)](#许可)
 [![Claude Code 协助编写](https://img.shields.io/badge/Claude%20Code-%E5%8D%8F%E5%8A%A9%E7%BC%96%E5%86%99-D97757?style=flat-square&logo=claude&logoColor=white)](https://claude.com/claude-code)
 
-### [打开在线检索页](https://eternity4719.github.io/HowToLiveBetter/) · [让 AI 照书回答（skill）](skills/life-decision-guide/README.md)
+### [Otwórz wyszukiwarkę online](https://eternity4719.github.io/HowToLiveBetter/) · [AI odpowiadająca na podstawie książki (skill)](skills/life-decision-guide/README.md)
 
-AI 助手 skill 支持 Claude Code 和 Codex。装上后直接问「替朋友担保签不签」，它先查书里的条目再回答，并注明出自第几节第几条。
+Skill dla asystenta AI działa z Claude Code i Codex. Po instalacji możesz zapytać na przykład: „Czy poręczyć pożyczkę przyjacielowi?”. Asystent najpierw wyszuka odpowiednie punkty w książce, a potem odpowie, podając sekcję i numer punktu.
 
 <table>
 <tr><td align="right"><b>下载</b></td><td align="left">
 
-[PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf) · [EPUB](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub) · [离线单文件（HTML）](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html) · [Anki 牌组](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.apkg)
+[PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf) · [EPUB](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub) · [Pojedynczy plik offline (HTML)](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html) · [Talia Anki](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.apkg)
 
 </td></tr>
 <tr><td align="right"><b>查阅</b></td><td align="left">
 
-[目录](#目录) · [术语表](#读懂数字术语表) · [核实记录](docs/核实记录/)
+[Spis treści](#目录) · [Słowniczek](#读懂数字术语表) · [Dokumentacja weryfikacji](docs/核实记录/)
 
 </td></tr>
 <tr><td align="right"><b>自查</b></td><td align="left">
 
-[生活自查](https://eternity4719.github.io/HowToLiveBetter/selfcheck.html)：回答几十道是否题，看看书里哪些事你还没做到、先做哪几件
+[Samoocena](https://eternity4719.github.io/HowToLiveBetter/selfcheck.html): odpowiedz na kilkadziesiąt pytań „tak/nie” i sprawdź, których zaleceń jeszcze nie wdrożyłeś oraz od czego zacząć
 
 </td></tr>
 <tr><td align="right"><b>长文</b></td><td align="left">
 
-[结婚划不划算](docs/结婚划不划算.md) · [家庭应急装备清单](docs/家庭应急装备清单.md) · [遇到陌生人出事该不该停](docs/遇到陌生人出事该不该停.md) · [做平台要办哪些证](docs/做平台要办哪些证.md) · [生物钟和夜班](docs/生物钟和夜班.md) · [被裁了之后先做什么](docs/被裁了之后先做什么.md) · [孩子出生前后要办的事](docs/孩子出生前后要办的事.md) · [刚确诊慢性病之后](docs/刚确诊慢性病之后.md) · [换工作、换城市之前](docs/换工作、换城市之前.md)
+[Czy małżeństwo się opłaca](docs/结婚划不划算.md) · [Rodzinny zestaw awaryjny](docs/家庭应急装备清单.md) · [Czy zatrzymać się, gdy obcemu przydarzy się wypadek](docs/遇到陌生人出事该不该停.md) · [Jakie zezwolenia są potrzebne do prowadzenia platformy](docs/做平台要办哪些证.md) · [Zegar biologiczny i praca nocna](docs/生物钟和夜班.md) · [Co zrobić po zwolnieniu](docs/被裁了之后先做什么.md) · [Sprawy do załatwienia przed narodzinami dziecka i po nich](docs/孩子出生前后要办的事.md) · [Co robić po rozpoznaniu choroby przewlekłej](docs/刚确诊慢性病之后.md) · [Przed zmianą pracy lub miasta](docs/换工作、换城市之前.md)
 
 </td></tr>
 <tr><td align="right"><b>交流</b></td><td align="left">
 
-[QQ 群 582670354](https://qm.qq.com/q/P1RNw3Rnqg)（点击加群）
+[Grupa QQ 582670354](https://qm.qq.com/q/P1RNw3Rnqg) (kliknij, aby dołączyć)
 
 </td></tr>
 <tr><td align="right"><b>其他语言</b></td><td align="left">
 
-[English](https://book.dlgrv.com/en/) · [Русский](https://book.dlgrv.com/ru/) · [Español](https://book.dlgrv.com/es/) · [Português](https://book.dlgrv.com/pt/) · [العربية](https://book.dlgrv.com/ar/) · [Bahasa Indonesia](https://book.dlgrv.com/id/)，[dlgrv](https://github.com/dlgrv) 维护的翻译（[仓库](https://github.com/dlgrv/HowToLiveBetter)）
+[English](https://book.dlgrv.com/en/) · [Русский](https://book.dlgrv.com/ru/) · [Español](https://book.dlgrv.com/es/) · [Português](https://book.dlgrv.com/pt/) · [العربية](https://book.dlgrv.com/ar/) · [Bahasa Indonesia](https://book.dlgrv.com/id/)，tłumaczenia utrzymywane przez [dlgrv](https://github.com/dlgrv) ([repozytorium](https://github.com/dlgrv/HowToLiveBetter))
 
-[English（The Evidence-Based Life）](https://parveen0029.github.io/The-Evidence-Based-Life/)，[parveen0029](https://github.com/parveen0029) 维护的另一份英文翻译（[仓库](https://github.com/parveen0029/The-Evidence-Based-Life)）
+[English（The Evidence-Based Life）](https://parveen0029.github.io/The-Evidence-Based-Life/)，drugie tłumaczenie angielskie utrzymywane przez [parveen0029](https://github.com/parveen0029) ([repozytorium](https://github.com/parveen0029/The-Evidence-Based-Life))
 
-[Tiếng Việt](https://chuanman2707.github.io/HowToLiveBetter/)，[chuanman2707](https://github.com/chuanman2707) 维护的越南语翻译（[仓库](https://github.com/chuanman2707/HowToLiveBetter)）
+[Tiếng Việt](https://chuanman2707.github.io/HowToLiveBetter/)，tłumaczenie wietnamskie utrzymywane przez [chuanman2707](https://github.com/chuanman2707) ([repozytorium](https://github.com/chuanman2707/HowToLiveBetter))
 
 </td></tr>
 <tr><td align="right"><b>衍生工具</b></td><td align="left">
 
-读者做的网站、App、小程序、浏览器插件和数据集，见[衍生项目](衍生项目.md)
+Strony internetowe, aplikacje, miniaplikacje, dodatki do przeglądarek i zbiory danych przygotowane przez czytelników opisano w dokumencie [Projekty pochodne](衍生项目.md).
 
 </td></tr>
 </table>
 
-<sub>其他语言和衍生工具由他人维护，内容可能落后，以本仓库中文原文为准。</sub>
+<sub>Inne wersje językowe i narzędzia pochodne są utrzymywane przez inne osoby i mogą być nieaktualne. W razie rozbieżności obowiązuje chiński tekst źródłowy w tym repozytorium.</sub>
 
 </div>
 
